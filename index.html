@@ -428,12 +428,18 @@ definition</i> of the nuclear radius.
 
    <h4 class="subsectionHead"><span class="titlemark">1.4.1   </span> <a 
 href="#QQ2-1-12" id="x1-90001.4.1">Experimental Determination of Nuclear Radius</a></h4>
-<p>By increasing the energy of a particle incident on a nucleus, we can probe progressively
-smaller distances <span class="mathjax-inline">\(\delta \)</span>. If we manage to probe distances below a critical value <span class="mathjax-inline">\(\delta _N\)</span>, the observed
-angular distribution <span class="mathjax-inline">\(N(\theta )\)</span> of scattered particles begins to deviate from the distribution calculated
-for a pure Coulomb potential. In a simplified model, <span class="mathjax-inline">\(\delta _N\)</span> is interpreted as the nuclear radius
-<span class="mathjax-inline">\(R_N\)</span>.
+<p>By increasing the energy of a particle incident on a nucleus, we can probe progressively smaller
+distances <span class="mathjax-inline">\(\delta \)</span>. If we probe distances below a critical value <span class="mathjax-inline">\(\delta _N\)</span>, the observed angular distribution <span class="mathjax-inline">\(N(\theta )\)</span> of scattered
+particles begins to deviate from the distribution calculated for a pure Coulomb potential. In a simplified
+model, <span class="mathjax-inline">\(\delta _N\)</span> is interpreted as the nuclear radius <span class="mathjax-inline">\(R_N\)</span>.
 </p> 
+<p>   Note that at this scale, the interaction can only be properly described quantum mechanically. The
+incident particle has a de Broglie wavelength: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \lambda = \frac {h}{p} \end{equation*}</div> The ability to resolve the nucleus as an extended object
+rather than a point-like source is limited by this wavelength. When <span class="mathjax-inline">\(\lambda \)</span> is comparable to the nuclear
+dimensions, wave effects such as diffraction become significant. Consequently, the “nuclear radius” is
+better understood as the spatial extent of the nuclear potential or matter distribution, rather than the
+boundary of a sharp, solid object.
 <p>   For a given projectile energy <span class="mathjax-inline">\(E_0\)</span>, deviations of <span class="mathjax-inline">\(N(\theta )\)</span> from Coulomb scattering are observed for
 angles <span class="mathjax-inline">\(\theta &gt; \theta _k\)</span>, where <span class="mathjax-inline">\(\delta (\theta ) \approx R_N\)</span>; see Fig. <a 
 href="#x1-9001r1">1.2i<!--tex4ht:ref: fig:Scattering_vs_theta --></a>. At high angles, the projectile’s distance of closest approach
@@ -527,13 +533,19 @@ href="#Xkrane1987introductory">2</a>].                                      </sp
 </p> 
 <p>   </figure>
 </p> 
-<p>   Hofstadter and collaborators measured the scattering of high-energy electrons from various nuclei;see
-Fig. <a 
-href="#x1-10001r4">1.4<!--tex4ht:ref: fig:Electron_Scattering --></a>. The position of the first dip is inversely proportional to the nuclear size: larger nuclei (like <span class="mathjax-inline">\(^{16}\mathrm {O}\)</span>)
-have dips at smaller angles compared to smaller nuclei (like <span class="mathjax-inline">\(^{12}\mathrm {C}\)</span>). Furthermore, the fact that these minima
-do not go to zero indicates that the nucleus does not have a sharp boundary. Instead, it has a “fuzzy”
-surface thickness.
-</p> 
+<p>   Hofstadter and collaborators measured the scattering of high-energy electrons from various nuclei;
+see Fig. <a 
+href="#x1-10001r4">1.4<!--tex4ht:ref: fig:Electron_Scattering --></a>. For diffraction by a circular disk of diameter <span class="mathjax-inline">\(D\)</span>, the first minimum appears at </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \sin \theta = \frac {1.22\lambda }{D}, \end{equation*}</div>
+where <span class="mathjax-inline">\(\theta \)</span> is the angle of the first minimum and <span class="mathjax-inline">\(\lambda \)</span> is the wavelength of the incoming particle.
+Using this relation gives estimated nuclear radii of approximately <span class="mathjax-inline">\(2.6\,\mathrm {fm}\)</span> for <span class="mathjax-inline">\(\ce {^16O}\)</span> and <span class="mathjax-inline">\(2.3\,\mathrm {fm}\)</span> for <span class="mathjax-inline">\(\ce {^12C}\)</span>. These
+values are only rough estimates because nuclear potential scattering is fundamentally a
+three-dimensional quantum mechanical problem, only approximately related to diffraction by a
+two-dimensional disk. A more complete treatment requires the formalism of a wave function
+interacting with a potential, treated using perturbation theory. These techniques will be
+covered in next year’s modules. Furthermore, the fact that these minima do not go to zero
+indicates that the nucleus does not have a sharp boundary. Instead, it has a “fuzzy” surface
+thickness.
 <p>   Under the assumption that the electrons scatter from a Coulomb potential caused by a charge <i>charge
 density</i> <span class="mathjax-inline">\(\rho (r)\)</span>, their results for <span class="mathjax-inline">\(\rho (r)\)</span> can be described by the <i>Woods-Saxon distribution</i> (also known as the <i>Fermi
 distribution</i>): </p> 
@@ -613,14 +625,16 @@ the matter density <span class="mathjax-inline">\(\rho _m(r)\)</span>. The propo
 that <span class="mathjax-inline">\(Z/A\)</span> decreases for heavier nuclei, which require more neutrons for stability. This implies that the central
 matter density <span class="mathjax-inline">\(\rho _m(0)\)</span> is approximately <i>constant for all nuclei</i>.
 </p> 
-<p>   Scattering measurements can be understood as experimentally determining the root-mean-square
-(RMS) radius of the density distribution, defined as the weighted average of <span class="mathjax-inline">\(r^2\)</span> over the entire volume:
-</p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \langle r^2 \rangle = \frac {\int r^2 \rho _m(r) dV} {\int \rho _m(r) dV}. \end{equation*}</div>
+<p>   Scattering measurements can be understood as experimentally determining the mean-square radius
+of the density distribution, defined as the weighted average of <span class="mathjax-inline">\(r^2\)</span> over the entire volume: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \langle r^2 \rangle = \frac {\int r^2 \rho _m(r)\, dV} {\int \rho _m(r)\, dV}. \end{equation*}</div> The
+corresponding root-mean-square (RMS) radius is then given by <span class="mathjax-inline">\(\sqrt {\langle r^2 \rangle }\)</span>.
 <p>   If the real nucleus is approximately described by a homogeneous sphere with constant mass density
-and radius <span class="mathjax-inline">\(R_N\)</span>, then the total mass is <span class="mathjax-inline">\(M = \rho \frac {4}{3}\pi R_N^3\)</span> and the RMS is: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \langle r^2 \rangle = \frac {\int _{0}^{R_N} r^4 dr} {\int _{0}^{R_N} r^2 dr} = \frac {\frac {1}{5}R_N^5} {\frac {1}{3}R_N^3} = \frac {3}{5} R_N^2. \end{equation*}</div> Given an actually measured RMS (<span class="mathjax-inline">\(\langle r^2 \rangle \)</span>) we can then
-define the equivalent nuclear radius <span class="mathjax-inline">\(R_N\)</span> as: <div class="mathjax-env mathjax-equation*">\begin{equation*} R_N = \sqrt {\frac {5}{3} \langle r^2 \rangle }. \end{equation*}</div>
+and radius <span class="mathjax-inline">\(R_N\)</span>, then the total mass is <span class="mathjax-inline">\(M = \rho \frac {4}{3}\pi R_N^3\)</span>. The mean-square radius is: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \langle r^2 \rangle = \frac {\int _{0}^{R_N} r^2 \rho \, 4\pi r^2 dr} {\int _{0}^{R_N} \rho \, 4\pi r^2 dr} = \frac {\int _{0}^{R_N} r^4 dr} {\int _{0}^{R_N} r^2 dr} = \frac {\frac {1}{5}R_N^5} {\frac {1}{3}R_N^3} = \frac {3}{5} R_N^2. \end{equation*}</div>
+<p>   Given an experimentally measured mean-square radius <span class="mathjax-inline">\(\langle r^2 \rangle \)</span>, we can define the equivalent nuclear radius <span class="mathjax-inline">\(R_N\)</span>
+as: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} R_N = \sqrt {\frac {5}{3} \langle r^2 \rangle }. \end{equation*}</div>
 <p>   High-precision studies indicate that the charge and matter radii of nuclei are nearly
 equal, typically within about <span class="mathjax-inline">\(0.1\,\text {fm}\)</span>. Both show a dependence on the mass number <span class="mathjax-inline">\(A\)</span> leading to:
 </p> 
