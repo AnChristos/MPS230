@@ -60,7 +60,7 @@ href="#x1-60001.3" id="QQ2-1-7">Rutherford Scattering</a></span>
 <br />   <span class="sectionToc" >1.4 <a 
 href="#x1-70001.4" id="QQ2-1-9">Cross Section</a></span>
 <br />   <span class="subsectionToc" >1.4.1 <a 
-href="#x1-80001.4.1" id="QQ2-1-11">Example: Alpha Particle Deflection in Platinum Foil</a></span>
+href="#x1-80001.4.1" id="QQ2-1-11">Example: Alpha Particle Scattering from Platinum Foil</a></span>
 <br />   <span class="sectionToc" >1.5 <a 
 href="#x1-90001.5" id="QQ2-1-12">The Size of the Nucleus</a></span>
 <br />   <span class="subsectionToc" >1.5.1 <a 
@@ -355,10 +355,11 @@ href="#x1-6001r1">1.1<!--tex4ht:ref: fig:Rutherford_Scattering --></a>.
 src="pic/Rutherford_Scattering.png" alt="PIC"  
 style="width:41.8%"> <a 
  id="x1-6001r1"></a>
-<figcaption class="caption" ><span class="id">Figure 1.1: </span><span  
-class="content">Elastic scattering of a particle with initial velocity <span class="mathjax-inline">\(v_0\)</span>, impact parameter <span class="mathjax-inline">\(b\)</span>, and scattering
-angle <span class="mathjax-inline">\(\theta \)</span>. Source [<a 
-href="#XDemtroder:2022afs">1</a>].                                                                        </span></figcaption><!--tex4ht:label?: x1-6001r1 -->
+<figcaption class="caption" ><span class="id">Figure 1.1:  </span><span  
+class="content">Elastic  scattering  of  a  particle  with  initial  velocity  <span class="mathjax-inline">\(v_0\)</span>,  impact  parameter  <span class="mathjax-inline">\(b\)</span>  (this  is
+perpendicular distance from the centre of the nucleus to the incoming path of the particle), and
+scattering angle <span class="mathjax-inline">\(\theta \)</span>. Source [<a 
+href="#XDemtroder:2022afs">1</a>].                                                               </span></figcaption><!--tex4ht:label?: x1-6001r1 -->
                                                                                          
                                                                                          
 </p> 
@@ -427,7 +428,7 @@ like </p>
 data.
    
    <h4 class="subsectionHead"><span class="titlemark">1.4.1   </span> <a 
-href="#QQ2-1-11" id="x1-80001.4.1">Example: Alpha Particle Deflection in Platinum Foil</a></h4>
+href="#QQ2-1-11" id="x1-80001.4.1">Example: Alpha Particle Scattering from Platinum Foil</a></h4>
 <p>We will use an idealised setup that reflects the early experiments of Geiger and Marsden [<a 
 href="#XGeigerMarsden1909">2</a>].
 An <span class="mathjax-inline">\(\alpha \)</span>-particle beam (<span class="mathjax-inline">\(Z_1 = 2\)</span>) with kinetic energy </p> 
@@ -437,62 +438,51 @@ density <span class="mathjax-inline">\(\rho = 21.45~\mathrm {g/cm^3}\)</span> an
 <p>   From Equation (<a 
 href="#x1-6002r2">1.2<!--tex4ht:ref: eq:Rutherford_impact --></a>), the impact parameter <span class="mathjax-inline">\(b\)</span> is related to the scattering angle <span class="mathjax-inline">\(\theta \)</span> by </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {Z_1 Z_2 e^2} {4\pi \varepsilon _0 m v_0^2} \cot (\theta /2). \end{equation*}</div> Using <span class="mathjax-inline">\(m v_0^2 = 2E_{\text {kin}}\)</span>, this
-becomes <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \cot (\theta /2). \end{equation*}</div> Because <span class="mathjax-inline">\(\cot (\theta /2)\)</span> decreases monotonically as <span class="mathjax-inline">\(\theta \)</span> increases, larger scattering angles correspond to smaller
-impact parameters. Therefore, for a particle to be deflected by <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span>, it must approach the nucleus within an
-impact parameter <span class="mathjax-inline">\(b_{90}\)</span> obtained by setting <span class="mathjax-inline">\(\theta = 90^\circ \)</span>: <div class="mathjax-env mathjax-equation*">\begin{equation*} b_{90} = \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}}. \end{equation*}</div> The effective cross section of a single nucleus for scattering
-through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span> is therefore <div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma _{\ge 90^\circ } = \pi b_{90}^2 = \pi \left ( \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \right )^2. \end{equation*}</div>
-<p>   To determine the fraction of incident particles scattered by <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span>, consider an arbitrary surface element <span class="mathjax-inline">\(\Delta A\)</span> of
-the foil. The number of platinum nuclei contained within the corresponding volume element <span class="mathjax-inline">\(\Delta A\,d\)</span> is </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} N = n\,\Delta A\,d, \end{equation*}</div> where <span class="mathjax-inline">\(n\)</span> is
-the number density of platinum nuclei: <div class="mathjax-env mathjax-equation*">\begin{equation*} n = \frac {\rho N_A}{M}, \end{equation*}</div> with <span class="mathjax-inline">\(\rho \)</span> the mass density, <span class="mathjax-inline">\(M\)</span> the molar mass, and <span class="mathjax-inline">\(N_A\)</span> Avogadro’s
-number.
+becomes <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \cot (\theta /2). \end{equation*}</div> For a particle to be deflected by <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span>, it must approach the nucleus within an area defined by the
+impact parameter corresponding to <span class="mathjax-inline">\(\theta = 90^\circ \)</span> <div class="mathjax-env mathjax-equation*">\begin{equation*} b_{90} = \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}}, \end{equation*}</div> and <span class="mathjax-inline">\(\theta = 180^\circ \)</span> in which case <span class="mathjax-inline">\(b_{180}=0\)</span>. Note that because <span class="mathjax-inline">\(\cot (\theta /2)\)</span> decreases as <span class="mathjax-inline">\(\theta \)</span> increases,
+larger scattering angles correspond to smaller impact parameters.
+<p>   The effective cross section of a single nucleus for scattering through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span> is therefore
+</p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma _{\ge 90^\circ } = \pi b_{90}^2 = \pi \left ( \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \right )^2. \end{equation*}</div>
+<p>   To determine the fraction of incident particles scattered by <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span>, we consider the incident beam area <span class="mathjax-inline">\(\Delta A\)</span>
+impacting the foil. The number of platinum nuclei contained within the corresponding volume element <span class="mathjax-inline">\(\Delta A\,d\)</span> is </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} N = n\,\Delta A\,d, \end{equation*}</div>
+where <span class="mathjax-inline">\(n\)</span> is the number density of platinum nuclei: <div class="mathjax-env mathjax-equation*">\begin{equation*} n = \frac {\rho N_A}{M}, \end{equation*}</div> with <span class="mathjax-inline">\(\rho \)</span> the mass density, <span class="mathjax-inline">\(M\)</span> the molar mass, and <span class="mathjax-inline">\(N_A\)</span>
+Avogadro’s number.
 <p>   For a sufficiently thin foil, the probability of an <span class="mathjax-inline">\(\alpha \)</span>-particle undergoing more than one large-angle
 scattering event is negligible. The total effective cross section presented by all nuclei within the area
 element <span class="mathjax-inline">\(\Delta A\)</span> is therefore </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma _{\mathrm {tot},\ge 90^\circ } = N\,\sigma _{\ge 90^\circ } = n\,\Delta A\,d\,\sigma _{\ge 90^\circ }. \end{equation*}</div>
 <p>   The fraction <span class="mathjax-inline">\(f\)</span> of incident particles scattered through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span> is equal to the ratio of this total cross
 section to the incident beam area <span class="mathjax-inline">\(\Delta A\)</span>: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} f = \frac {\sigma _{\mathrm {tot},\ge 90^\circ }} {\Delta A} = n\,d\,\sigma _{\ge 90^\circ }. \end{equation*}</div> Substituting the expression for the number density and <span class="mathjax-inline">\(\sigma _{\ge 90^\circ }\)</span> gives <div class="mathjax-env mathjax-equation*">\begin{equation*} f =\frac {\rho N_A d}{M} \,\pi \left (\frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \right )^2. \end{equation*}</div> Using <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {e^2}{4\pi \varepsilon _0} = 1.44~\mathrm {MeV\,fm}, \end{equation*}</div>
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {Z_1 Z_2} {2E_{\text {kin}}} \left ( \frac {e^2}{4\pi \varepsilon _0} \right ) = \frac {2\times 78}{2\times 5} \times 1.44~\mathrm {fm} \simeq 22.46~\mathrm {fm} = 2.246\times 10^{-12}~\mathrm {cm}. \end{equation*}</div> Hence, <div class="mathjax-env mathjax-equation*">\begin{equation*} \pi \left ( 2.246\times 10^{-12} \right )^2 ~\mathrm {cm^2} \simeq 1.59\times 10^{-23}~\mathrm {cm^2}. \end{equation*}</div>
-<p>   The number density of platinum nuclei is </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\rho N_A}{M} = \frac { (21.45~\mathrm {g/cm^3}) (6.022\times 10^{23}~\mathrm {mol^{-1}}) }{ 195.08~\mathrm {g/mol} } \simeq 6.62\times 10^{22}~\mathrm {cm^{-3}}. \end{equation*}</div> Therefore, <div class="mathjax-env mathjax-equation*">\begin{equation*} f = (6.62\times 10^{22}) (1.2\times 10^{-4}) (1.59\times 10^{-23}) \simeq 1.26\times 10^{-4}. \end{equation*}</div> Thus, approximately <div class="mathjax-env mathjax-equation*">\begin{equation*} f \simeq 1.3\times 10^{-4} \end{equation*}</div> of the incident <span class="mathjax-inline">\(\alpha \)</span>-particles
-are scattered through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span>, corresponding to roughly one particle in <span class="mathjax-inline">\(8\times 10^3\)</span>.
+<div class="mathjax-env mathjax-equation*">\begin{equation*} f = \frac {\sigma _{\mathrm {tot},\ge 90^\circ }} {\Delta A} = n\,d\,\sigma _{\ge 90^\circ }. \end{equation*}</div> Substituting the expression for the number density and <span class="mathjax-inline">\(\sigma _{\ge 90^\circ }\)</span> gives
+<div class="mathjax-env mathjax-equation*">\begin{equation*} f =\frac {\rho N_A d}{M} \,\pi \left (\frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \right )^2. \end{equation*}</div>
+<p>   Using </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \pi \left [ \frac {Z_1 Z_2} {2E_{\text {kin}}} \left ( \frac {e^2}{4\pi \varepsilon _0} \right ) \right ]^2 = \pi \left [ \frac {2\times 78} {2\times 5} \times 1.44\times 10^{-13} \right ]^2 ~\mathrm {cm}^2 \simeq 1.59\times 10^{-23} ~\mathrm {cm}^2. \end{equation*}</div> and the number density of platinum nuclei <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\rho N_A}{M} = \frac { (21.45~\mathrm {g/cm^3}) (6.022\times 10^{23}~\mathrm {mol^{-1}}) }{ 195.08~\mathrm {g/mol} } \simeq 6.62\times 10^{22}~\mathrm {cm^{-3}}, \end{equation*}</div> we have <div class="mathjax-env mathjax-equation*">\begin{equation*} f = (6.62\times 10^{22}) (1.2\times 10^{-4}) (1.59\times 10^{-23}) \simeq 1.26\times 10^{-4}. \end{equation*}</div>
+<p>   Thus, approximately </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} f \simeq 1.3\times 10^{-4} \end{equation*}</div> of the incident <span class="mathjax-inline">\(\alpha \)</span>-particles are scattered through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span>, corresponding to
+roughly one particle in <span class="mathjax-inline">\(8\times 10^3\)</span>.
+<p>   Let me add a warning on using formulas schematically, ignoring the physics context. If we set <span class="mathjax-inline">\(\theta =0\)</span> then
+the formulas for the impact parameter and the differential cross-section return infinity. This is a
+consequence of the long range of the Coulomb potential. On the other hand for large impact
+parameters, in this case of the order of the atomic radius, the charge of the nucleus is completely
+screened.
+                                                                                         
+                                                                                         
+   </p> 
+
    <h3 class="sectionHead"><span class="titlemark">1.5   </span> <a 
 href="#QQ2-1-12" id="x1-90001.5">The Size of the Nucleus</a></h3>
 <p>It is usually clear what we mean when we talk about the size of a macroscopic object. For
 sub-microscopic objects such as nuclei, however, we need to be more careful. A nucleus is not a perfectly
 hard sphere with abrupt boundaries, so what do we mean by its size? What is required is an <i>operational
 definition</i> of the nuclear radius.
-                                                                                         
-                                                                                         
    
    </p> 
 
    <h4 class="subsectionHead"><span class="titlemark">1.5.1   </span> <a 
 href="#QQ2-1-13" id="x1-100001.5.1">Experimental Determination of Nuclear Radius</a></h4>
-<p>By increasing the energy of a particle incident on a nucleus, we can probe progressively smaller distances
-<span class="mathjax-inline">\(\delta \)</span>. At this scale, the interaction can only be properly described quantum mechanically. The ability to
-resolve the nucleus as an extended object rather than a point-like source depends on the de Broglie
-wavelength: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \lambda = \frac {h}{p}. \end{equation*}</div>
-<p>   If we probe distances below a critical value <span class="mathjax-inline">\(\delta _N\)</span>, the observed angular distribution <span class="mathjax-inline">\(N(\theta )\)</span> of scattered particles
-begins to deviate from the distribution calculated for a pure Coulomb potential. In a simplified model, <span class="mathjax-inline">\(\delta _N\)</span> is
-interpreted as the nuclear radius <span class="mathjax-inline">\(R_N\)</span>. In this context the nuclear radius is better understood as the spatial
-extent of the nuclear potential or matter distribution, rather than the boundary of a sharp, solid
-object.
-</p> 
-<p>   For a given projectile energy <span class="mathjax-inline">\(E_0\)</span>, deviations of <span class="mathjax-inline">\(N(\theta )\)</span> from Coulomb scattering are observed for
-angles <span class="mathjax-inline">\(\theta &gt; \theta _k\)</span>, where <span class="mathjax-inline">\(\delta (\theta ) \approx R_N\)</span>; see Fig. <a 
-href="#x1-10001r1">1.2i<!--tex4ht:ref: fig:Scattering_vs_theta --></a>. At high angles, the projectile’s distance of closest approach
-becomes small enough and the particle can interact with the nucleus via the strong nuclear
-force.
-</p> 
-<p>   Conversely, for fixed <span class="mathjax-inline">\(\theta \)</span> and varying <span class="mathjax-inline">\(E_0\)</span>, deviations occur when <span class="mathjax-inline">\(E_0 &gt; E_k\)</span> such that <span class="mathjax-inline">\(\delta (E_0) &lt; R_N\)</span>; see Fig. <a 
-href="#x1-10002r2">1.2ii<!--tex4ht:ref: fig:Scattering_vs_E --></a>. The
-observed “cliff” marks the threshold where the particle begins to probe the internal nuclear
-structure.
-</p> 
-<p>   <figure class="figure"> 
+<p><figure class="figure"> 
 
                                                                                          
                                                                                          
@@ -533,7 +523,29 @@ href="#XDemtroder:2022afs">1</a>].
 </span></div>
                                                                                          
                                                                                          
-<p>   </figure>
+<p></figure>
+</p> 
+<p>   By increasing the energy of a particle incident on a nucleus, we can probe progressively smaller
+distances <span class="mathjax-inline">\(\delta \)</span>. At this scale, the interaction can only be properly described quantum mechanically. The
+ability to resolve the nucleus as an extended object rather than a point-like source depends on the de
+Broglie wavelength: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \lambda = \frac {h}{p}. \end{equation*}</div>
+<p>   If we probe distances below a critical value <span class="mathjax-inline">\(\delta _N\)</span>, the observed angular distribution <span class="mathjax-inline">\(N(\theta )\)</span> of scattered particles
+begins to deviate from the distribution calculated for a pure Coulomb potential. In a simplified model, <span class="mathjax-inline">\(\delta _N\)</span> is
+interpreted as the nuclear radius <span class="mathjax-inline">\(R_N\)</span>. In this context the nuclear radius is better understood as the spatial
+extent of the nuclear potential or matter distribution, rather than the boundary of a sharp, solid
+object.
+</p> 
+<p>   For a given projectile energy <span class="mathjax-inline">\(E_0\)</span>, deviations of <span class="mathjax-inline">\(N(\theta )\)</span> from Coulomb scattering are observed for
+angles <span class="mathjax-inline">\(\theta &gt; \theta _k\)</span>, where <span class="mathjax-inline">\(\delta (\theta ) \approx R_N\)</span>; see Fig. <a 
+href="#x1-10001r1">1.2i<!--tex4ht:ref: fig:Scattering_vs_theta --></a>. At high angles, the projectile’s distance of closest approach
+becomes small enough and the particle can interact with the nucleus via the strong nuclear
+force.
+</p> 
+<p>   Conversely, for fixed <span class="mathjax-inline">\(\theta \)</span> and varying <span class="mathjax-inline">\(E_0\)</span>, deviations occur when <span class="mathjax-inline">\(E_0 &gt; E_k\)</span> such that <span class="mathjax-inline">\(\delta (E_0) &lt; R_N\)</span>; see Fig. <a 
+href="#x1-10002r2">1.2ii<!--tex4ht:ref: fig:Scattering_vs_E --></a>. The
+observed “cliff” marks the threshold where the particle begins to probe the internal nuclear
+structure.
 </p> 
 <p>   An analysis of high-energy <span class="mathjax-inline">\(\alpha \)</span>-particle scattering was performed in 1920 by James Chadwick. His results
 showed that the nuclear radius <span class="mathjax-inline">\(R_N\)</span> for an element with mass number <span class="mathjax-inline">\(A\)</span> follows a relationship of the form
@@ -550,8 +562,8 @@ to probe the details of the nucleus.
    <h4 class="subsectionHead"><span class="titlemark">1.5.2   </span> <a 
 href="#QQ2-1-15" id="x1-110001.5.2">Nuclear Charge and Matter Density</a></h4>
 <p>Early experiments were performed with <span class="mathjax-inline">\(\alpha \)</span>-particles as probes. This means that Coulomb forces as well as
-nuclear forces contribute to the scattering. For fast electrons, only the electromagnetic interaction is
-relevant, so one essentially measures the charge distribution.
+nuclear forces contribute to the scattering. For electrons, only the electromagnetic interaction is relevant,
+so one essentially measures the charge distribution.
 </p> 
 <p>   <figure class="figure"> 
 
@@ -702,8 +714,8 @@ within about <span class="mathjax-inline">\(0.1\,\text {fm}\)</span>. Both show 
    <h4 class="subsectionHead"><span class="titlemark">1.5.3   </span> <a 
 href="#QQ2-1-19" id="x1-120001.5.3">Example: Nuclear Density</a></h4>
 <p>Assuming protons and neutrons have the same mass, <span class="mathjax-inline">\(m_p = m_n\)</span>, the nuclear mass and volume are </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} M = A m_p, \qquad V = \frac {4}{3}\pi R^3 = \frac {4}{3}\pi r_0^3 A. \end{equation*}</div> The nuclear
-density is then <div class="mathjax-env mathjax-equation*">\begin{equation*} \rho = \frac {M}{V} = \frac {A m_p} {\frac {4}{3}\pi r_0^3 A} = \frac {3 m_p}{4 \pi r_0^3}. \end{equation*}</div> Substituting numerical values: <div class="mathjax-env mathjax-equation*">\begin{equation*} m_p \simeq 1.67\times 10^{-24}~\mathrm {g}, \qquad r_0 = 1.2\times 10^{-13}~\mathrm {cm}, \end{equation*}</div> we find <div class="mathjax-env mathjax-equation*">\begin{equation*} \rho \simeq \frac {3 \cdot 1.67 \times 10^{-24}} {4 \pi \left (1.2 \times 10^{-13}\right )^3} \simeq 2.3 \times 10^{14}~\mathrm {g/cm^3}. \end{equation*}</div>
+<div class="mathjax-env mathjax-equation*">\begin{equation*} M = A m_p, \V = \frac {4}{3}\pi R^3 = \frac {4}{3}\pi r_0^3 A. \end{equation*}</div> The nuclear
+density is then <div class="mathjax-env mathjax-equation*">\begin{equation*} \rho = \frac {M}{V} = \frac {A m_p} {\frac {4}{3}\pi r_0^3 A} = \frac {3 m_p}{4 \pi r_0^3}. \end{equation*}</div> Substituting numerical values: <div class="mathjax-env mathjax-equation*">\begin{equation*} m_p \simeq 1.67\times 10^{-24}~\mathrm {g}, \r_0 = 1.2\times 10^{-13}~\mathrm {cm}, \end{equation*}</div> we find <div class="mathjax-env mathjax-equation*">\begin{equation*} \rho \simeq \frac {3 \cdot 1.67 \times 10^{-24}} {4 \pi \left (1.2 \times 10^{-13}\right )^3} \simeq 2.3 \times 10^{14}~\mathrm {g/cm^3}. \end{equation*}</div>
    
    <h4 class="subsectionHead"><span class="titlemark">1.5.4   </span> <a 
 href="#QQ2-1-20" id="x1-130001.5.4">Example: Radius of a Neutron Star</a></h4>
@@ -712,7 +724,7 @@ mass is roughly one solar mass, </p>
 <div class="mathjax-env mathjax-equation*">\begin{equation*} M_\odot = 2 \times 10^{30}~\mathrm {kg}, \end{equation*}</div> we can estimate its radius.
 <p>   Using the nuclear density from the previous calculations, </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \rho \simeq 2.3 \times 10^{14}~\mathrm {g/cm^3} = 2.3 \times 10^{17}~\mathrm {kg/m^3}, \end{equation*}</div> and denoting the neutron star’s radius by <span class="mathjax-inline">\(R\)</span>,
-the mass–density relation is <div class="mathjax-env mathjax-equation*">\begin{equation*} M = \frac {4}{3}\pi R^3 \rho \quad \Rightarrow \quad R = \left ( \frac {3 M}{4 \pi \rho } \right )^{1/3}. \end{equation*}</div> Substituting numerical values (converting <span class="mathjax-inline">\(M_\odot \)</span> to grams): <div class="mathjax-env mathjax-equation*">\begin{equation*} M_\odot \simeq 2 \times 10^{33}~\mathrm {g}, \qquad \rho \simeq 2.3 \times 10^{14}~\mathrm {g/cm^3}, \end{equation*}</div> we get
+the mass–density relation is <div class="mathjax-env mathjax-equation*">\begin{equation*} M = \frac {4}{3}\pi R^3 \rho \implies R = \left ( \frac {3 M}{4 \pi \rho } \right )^{1/3}. \end{equation*}</div> Substituting numerical values (converting <span class="mathjax-inline">\(M_\odot \)</span> to grams): <div class="mathjax-env mathjax-equation*">\begin{equation*} M_\odot \simeq 2 \times 10^{33}~\mathrm {g}, \\rho \simeq 2.3 \times 10^{14}~\mathrm {g/cm^3}, \end{equation*}</div> we get
 <div class="mathjax-env mathjax-equation*">\begin{equation*} R \simeq \left ( \frac {3 \cdot 2 \times 10^{33}} {4 \pi \cdot 2.3 \times 10^{14}} \right )^{1/3}~\mathrm {cm} \simeq 1.28 \times 10^{6}~\mathrm {cm} \simeq 12.8~\mathrm {km}. \end{equation*}</div>
    
    <h4 class="subsectionHead"><span class="titlemark">1.5.5   </span> <a 
@@ -1331,9 +1343,9 @@ and one for neutrons. Both types of nucleons move in essentially the same averag
 potential.
 </p> 
 <p>   As shown in Fig. <a 
-href="#x1-34002r7">2.7<!--tex4ht:ref: fig:Fermi_lowZ --></a>, the energy levels of the proton and neutron systems are the same in this
-approximation. For a fixed mass number <span class="mathjax-inline">\(A\)</span>, the total energy of the nucleus is minimized when <span class="mathjax-inline">\(Z = N\)</span>, since any
-deviation from this condition would require nucleons to occupy higher-energy levels than
+href="#x1-34002r7">2.7<!--tex4ht:ref: fig:Fermi_lowZ --></a>, for small <span class="mathjax-inline">\(Z\)</span> the energy levels of the proton and neutron systems are the same in
+this approximation. For a fixed mass number <span class="mathjax-inline">\(A\)</span>, the total energy of the nucleus is minimized when <span class="mathjax-inline">\(Z = N\)</span>, since
+any deviation from this condition would require nucleons to occupy higher-energy levels than
 necessary.
 </p> 
 <p>   <figure class="figure"> 
@@ -1614,8 +1626,8 @@ and <span class="mathjax-inline">\(\alpha \)</span> move with equal and opposite
 <p>   <span class="mathjax-inline">\(\alpha \)</span> decays typically release energies of order <span class="mathjax-inline">\(5~\mathrm {MeV}\)</span>. Since this is much smaller than the rest energies of the
 particles, <span class="mathjax-inline">\(T \ll mc^2\)</span>, we may safely use the non- relativistic approximation. Writing <span class="mathjax-inline">\(T = p^2/2m\)</span>, the momentum relation gives </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_D}{T_\alpha } = \frac {\frac {p_D^2}{2m_D}}{\frac {p_\alpha ^2}{2m_\alpha }} = \frac {m_\alpha }{m_D}. \end{equation*}</div>
-Therefore the kinetic energies satisfy <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_\alpha }{T_D} = \frac {m_D}{m_\alpha }, \qquad T_\alpha + T_D = Q, \end{equation*}</div> which gives <div class="mathjax-env mathjax-equation*">\begin{equation*} T_D = Q \frac {m_\alpha }{m_\alpha + m_D}, \qquad T_\alpha = Q \frac {m_D}{m_\alpha + m_D}. \end{equation*}</div> For heavy nuclei <span class="mathjax-inline">\((A \gg 4)\)</span>, the kinetic energies can be
-approximated as <div class="mathjax-env mathjax-equation*">\begin{equation*} T_\alpha \approx \frac {A-4}{A}\,Q, \qquad T_D \approx \frac {4}{A}\,Q. \end{equation*}</div> Typically, the <span class="mathjax-inline">\(\alpha \)</span> particle carries about <span class="mathjax-inline">\(98\%\)</span> of the <span class="mathjax-inline">\(Q\)</span> value, while the much heavier daughter
+Therefore the kinetic energies satisfy <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_\alpha }{T_D} = \frac {m_D}{m_\alpha }, \T_\alpha + T_D = Q, \end{equation*}</div> which gives <div class="mathjax-env mathjax-equation*">\begin{equation*} T_D = Q \frac {m_\alpha }{m_\alpha + m_D}, \T_\alpha = Q \frac {m_D}{m_\alpha + m_D}. \end{equation*}</div> For heavy nuclei <span class="mathjax-inline">\((A \gg 4)\)</span>, the kinetic energies can be
+approximated as <div class="mathjax-env mathjax-equation*">\begin{equation*} T_\alpha \approx \frac {A-4}{A}\,Q, \T_D \approx \frac {4}{A}\,Q. \end{equation*}</div> Typically, the <span class="mathjax-inline">\(\alpha \)</span> particle carries about <span class="mathjax-inline">\(98\%\)</span> of the <span class="mathjax-inline">\(Q\)</span> value, while the much heavier daughter
 nucleus carries only about <span class="mathjax-inline">\(2\%\)</span>. This recoil energy is not negligible. For a representative <span class="mathjax-inline">\(Q \approx 5~\mathrm {MeV}\)</span>, the recoiling
 nucleus has an energy of order <span class="mathjax-inline">\(100~\mathrm {keV}\)</span>, which exceeds typical atomic binding energies in solids. Consequently, if
 the decay occurs near the surface of a source, the recoiling nucleus may escape and disperse into the
@@ -1632,7 +1644,7 @@ href="#QQ2-1-64" id="x1-450003.2.3">Example: Alpha decay of Radium-226 to Radon-
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \begin {aligned} &amp;m(\ce {Ra-226}) = 226.025403~\mathrm {u}, \\ &amp;m(\ce {Rn-222}) = 222.017571~\mathrm {u}, \\ &amp;m(\ce {He-4}) = 4.002603~\mathrm {u}. \end {aligned} \end{equation*}</div>
 <p>   We compute the mass difference: </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \begin {aligned} m_{\ce {Ra}} - m_{\ce {Rn}} - m_{\ce {He}} &amp;= 226.025403~\mathrm {u} - (222.017571~\mathrm {u} + 4.002603~\mathrm {u}) \\ &amp;= 0.005229~\mathrm {u}, \end {aligned} \end{equation*}</div> and from it the energy released <span class="mathjax-inline">\(Q\)</span>: <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = (m_{\ce {Ra}} - m_{\ce {Rn}} - m_{\ce {He}})c^2 = 0.005229~\mathrm {u} \times 931.49~\mathrm {MeV/u} \approx 4.871~\mathrm {MeV}. \end{equation*}</div> Using the formulas from the
-previous section: <div class="mathjax-env mathjax-equation*">\begin{equation*} T_{\ce {He}} = \frac {m_{\ce {Rn}}}{m_{\ce {He}} + m_{\ce {Rn}}} \, Q \approx 4.785~\mathrm {MeV}, \end{equation*}</div> <div class="mathjax-env mathjax-equation*">\begin{equation*} T_{\ce {Rn}} = Q - T_{\ce {He}} \approx 0.086~\mathrm {MeV}. \end{equation*}</div> For the velocities, using the non-relativistic approximation: <div class="mathjax-env mathjax-equation*">\begin{equation*} v = \sqrt {\frac {2 T}{m}} \quad \implies \quad \frac {v}{c} = \sqrt {\frac {2 T}{m c^2}}. \end{equation*}</div> Therefore, <div class="mathjax-env mathjax-equation*">\begin{equation*} v_{\ce {He}} \approx 0.051~c, \qquad v_{\ce {Rn}} = \frac {m_{\ce {He}}}{m_{\ce {Rn}}} v_{\ce {He}} \approx 0.00091~c. \end{equation*}</div> Here, for <span class="mathjax-inline">\(v_{\ce {He}}\)</span> the
+previous section: <div class="mathjax-env mathjax-equation*">\begin{equation*} T_{\ce {He}} = \frac {m_{\ce {Rn}}}{m_{\ce {He}} + m_{\ce {Rn}}} \, Q \approx 4.785~\mathrm {MeV}, \end{equation*}</div> <div class="mathjax-env mathjax-equation*">\begin{equation*} T_{\ce {Rn}} = Q - T_{\ce {He}} \approx 0.086~\mathrm {MeV}. \end{equation*}</div> For the velocities, using the non-relativistic approximation: <div class="mathjax-env mathjax-equation*">\begin{equation*} v = \sqrt {\frac {2 T}{m}} \quad \implies \quad \frac {v}{c} = \sqrt {\frac {2 T}{m c^2}}. \end{equation*}</div> Therefore, <div class="mathjax-env mathjax-equation*">\begin{equation*} v_{\ce {He}} \approx 0.051~c, \v_{\ce {Rn}} = \frac {m_{\ce {He}}}{m_{\ce {Rn}}} v_{\ce {He}} \approx 0.00091~c. \end{equation*}</div> Here, for <span class="mathjax-inline">\(v_{\ce {He}}\)</span> the
 momentum conservation was employed.
    
    <h4 class="subsectionHead"><span class="titlemark">3.2.4   </span> <a 
@@ -1771,7 +1783,7 @@ point <span class="mathjax-inline">\(b\)</span> is defined by the condition that
 the particle is classically free.
 </p> 
 <p>   For the decay of <span class="mathjax-inline">\(^{226}\mathrm {Ra}\)</span> we use </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} Q = 4.871~\mathrm {MeV}, \qquad Z_D = 86, \end{equation*}</div> and the nuclear surface <div class="mathjax-env mathjax-equation*">\begin{equation*} a = R_D + R_\alpha \approx 9.17~\mathrm {fm}. \end{equation*}</div> The outer point is obtained from <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = \frac {1}{4\pi \varepsilon _0}\frac {2 Z_D e^2}{b}. \end{equation*}</div> Solving for <span class="mathjax-inline">\(b\)</span> gives <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {2 Z_D}{Q}\left (\frac {e^2}{4\pi \varepsilon _0}\right ). \end{equation*}</div>
+<div class="mathjax-env mathjax-equation*">\begin{equation*} Q = 4.871~\mathrm {MeV}, \ Z_D = 86, \end{equation*}</div> and the nuclear surface <div class="mathjax-env mathjax-equation*">\begin{equation*} a = R_D + R_\alpha \approx 9.17~\mathrm {fm}. \end{equation*}</div> The outer point is obtained from <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = \frac {1}{4\pi \varepsilon _0}\frac {2 Z_D e^2}{b}. \end{equation*}</div> Solving for <span class="mathjax-inline">\(b\)</span> gives <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {2 Z_D}{Q}\left (\frac {e^2}{4\pi \varepsilon _0}\right ). \end{equation*}</div>
 Using <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {e^2}{4\pi \varepsilon _0} = 1.44~\mathrm {MeV\,fm}, \end{equation*}</div> we obtain <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {2 \times 86 \times 1.44~\mathrm {MeV\,fm}}{4.871~\mathrm {MeV}} \approx 50.8~\mathrm {fm}. \end{equation*}</div> The <span class="mathjax-inline">\(\alpha \)</span> particle must therefore tunnel from the nuclear surface <div class="mathjax-env mathjax-equation*">\begin{equation*} r = a \approx 9.17~\mathrm {fm} \end{equation*}</div> to the outer point <div class="mathjax-env mathjax-equation*">\begin{equation*} r = b \approx 50.8~\mathrm {fm}. \end{equation*}</div> The
 width of the classically forbidden region is <div class="mathjax-env mathjax-equation*">\begin{equation*} \Delta r = b - a \approx 41.6~\mathrm {fm}. \end{equation*}</div> Thus, the <span class="mathjax-inline">\(\alpha \)</span> particle must tunnel through a region several times
 larger than the nuclear radius itself.
