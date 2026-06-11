@@ -571,10 +571,10 @@ href="#Xkrane1987introductory">3</a>].                                       </s
 </p> 
 <p>   Hofstadter and collaborators measured the scattering of high-energy electrons from various nuclei; see
 Fig. <a 
-href="#x1-11001r4">1.4<!--tex4ht:ref: fig:Electron_Scattering --></a>. For diffraction by a circular disk of radius <span class="mathjax-inline">\(R\)</span>, the first minimum appears at </p> 
+href="#x1-11001r4">1.4<!--tex4ht:ref: fig:Electron_Scattering --></a>. For diffraction by a circular disk of radius <span class="mathjax-inline">\(R\)</span>, the first minimum appears at: </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \sin (\theta ) = \frac {1.22\lambda }{2R}, \end{equation*}</div> where <span class="mathjax-inline">\(\theta \)</span> is the angle of
-the first minimum and <span class="mathjax-inline">\(\lambda \)</span> is the wavelength <span class="mathjax-inline">\(\lambda = \frac {h}{p}\)</span> of the incoming particle [<a 
-href="#Xkrane1987introductory">3</a>] Using this relation gives estimated
+the first minimum and <span class="mathjax-inline">\(\lambda = h/p\)</span> is the wavelength of the incoming particle [<a 
+href="#Xkrane1987introductory">3</a>]. Using this relation gives estimated
 nuclear radii of approximately <span class="mathjax-inline">\(2.6\,\mathrm {fm}\)</span> for <span class="mathjax-inline">\(\ce {^16O}\)</span> and <span class="mathjax-inline">\(2.3\,\mathrm {fm}\)</span> for <span class="mathjax-inline">\(\ce {^12C}\)</span>.
 <p>   The above values are only estimates based on a geometrical approximation. Scattering from a nuclear
 potential is a three-dimensional quantum mechanical problem. A complete treatment requires the
@@ -606,8 +606,8 @@ href="#Xthomson">4</a>].</span></figcaption><!--tex4ht:label?: x1-11002r5 -->
 <p>   Under the assumption that the electrons scatter from a Coulomb potential caused by a <i>charge density</i>
 <span class="mathjax-inline">\(\rho (r)\)</span>, their results for <span class="mathjax-inline">\(\rho (r)\)</span> can be described by the <i>Woods-Saxon distribution</i> (also known as the <i>Fermi
 distribution</i>): </p> 
-<div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:charge_density} \rho (r) = \frac {\rho (0)} {1 + \exp \!\left (\frac {r - a}{b}\right )} , \end{equation}</div><a 
- id="x1-11003r3"></a> where <span class="mathjax-inline">\(a\)</span> is the <i>half-density radius</i> (the distance at which the density drops to 50%), and <span class="mathjax-inline">\(b \approx 0.53\,\text {fm}\)</span>
+<div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:charge_density} \rho (r) = \frac {\rho (0)}{1 + \exp \!\left (\frac {2(r - R_{1/2})}{d}\right )}, \end{equation}</div><a 
+ id="x1-11003r3"></a> where <span class="mathjax-inline">\(R_{1/2}\)</span> is the <i>half-density radius</i> (the distance at which the density drops to 50%), and <span class="mathjax-inline">\(d\)</span>
 characterizes the surface thickness.
 <p>   Fits of this distribution for various nuclei can be seen in Fig. <a 
 href="#x1-11006r6">1.6<!--tex4ht:ref: fig:Density --></a>. From these results, the following
@@ -620,12 +620,12 @@ conclusions can be drawn: </p>
      </p> 
 </li>
      <li class="itemize">
-     <p>The radius <span class="mathjax-inline">\(a\)</span> increases slowly with increasing mass number <span class="mathjax-inline">\(A\)</span> and is approximately proportional
-     to <span class="mathjax-inline">\(A^{1/3}\)</span>.
+     <p>The half-density radius <span class="mathjax-inline">\(R_{1/2}\)</span> increases slowly with increasing mass number <span class="mathjax-inline">\(A\)</span> and is approximately
+     proportional to <span class="mathjax-inline">\(A^{1/3}\)</span>.
      </p> 
 </li>
      <li class="itemize">
-     <p>The thickness of the nuclear surface <span class="mathjax-inline">\(2b\)</span> is nearly the same for all nuclei.
+     <p>The thickness of the nuclear surface <span class="mathjax-inline">\(d\)</span> is nearly the same for all nuclei.
      </p> 
 </li>
      <li class="itemize">
@@ -645,26 +645,26 @@ src="pic/Charge_Density.png" alt="PIC"
 style="width:110%"> <a 
  id="x1-11004r1"></a>
 </p> 
-<div class="caption" ><span class="id">(i) </span><span  
-class="content">The radial charge distributions of several nuclei,
-determined from electron scattering. The surface
-thickness <span class="mathjax-inline">\(t = 2b\)</span> is shown for <span class="mathjax-inline">\(\ce {^{16}O}\)</span>, <span class="mathjax-inline">\(\ce {^{58}Ni}\)</span>, and <span class="mathjax-inline">\(\ce {^{208}Pb}\)</span>; its value is roughly
-constant  at  2.3 fm.  The  central  charge  density
+<div class="caption" ><span class="id">(i)  </span><span  
+class="content">The  radial  charge  distributions  of  several
+nuclei, determined from electron scattering. The
+surface thickness is shown for <span class="mathjax-inline">\(\ce {^{16} O}\)</span>, <span class="mathjax-inline">\(\ce {^{58}Ni}\)</span>, and <span class="mathjax-inline">\(\ce {^{208}Pb}\)</span>; its value
+is roughly constant at 2.3 fm, corresponding to
+parameter <span class="mathjax-inline">\(d\)</span> in the text. The central charge density
 changes very little from the lightest nuclei to the
 heaviest. Source [<a 
-href="#Xkrane1987introductory">3</a>].                         </span></div></div>                                               <div class="subfigure">
+href="#Xkrane1987introductory">3</a>].                       </span></div></div>                                                 <div class="subfigure">
 <p></p> 
 <p><img 
 src="pic/Matter_Density.png" alt="PIC"  
 style="width:110%"> <a 
  id="x1-11005r2"></a>
 </p> 
-<div class="caption" ><span class="id">(ii)  </span><span  
-class="content">Matter  density  of  the  nucleus.  Note  the
-different notation among textbooks. <span class="mathjax-inline">\(R_{1/2}\)</span> corresponds to
-<span class="mathjax-inline">\(\alpha \)</span> in the text and <span class="mathjax-inline">\(d = 2b\)</span>. <span class="mathjax-inline">\({R_m}^2 = \langle r^2 \rangle \)</span>, and <span class="mathjax-inline">\(R_K\)</span> corresponds to <span class="mathjax-inline">\(R_N\)</span> in the text.
-Source [<a 
-href="#XDemtroder:2022afs">1</a>].                                 </span></div></div> <a 
+<div class="caption" ><span class="id">(ii) </span><span  
+class="content">Matter density of the nucleus, where <span class="mathjax-inline">\(R_{1/2}\)</span> represents
+the half-density radius and <span class="mathjax-inline">\(d\)</span> represents the surface
+thickness. <span class="mathjax-inline">\({R_m}^2 = \langle r^2 \rangle \)</span>. Source [<a 
+href="#XDemtroder:2022afs">1</a>].                         </span></div></div> <a 
  id="x1-11006r6"></a>
 <div class="caption" ><span class="id">Figure 1.6: </span><span  
 class="content">Nuclear charge and matter density distributions.
@@ -682,8 +682,9 @@ that <span class="mathjax-inline">\(Z/A\)</span> decreases for heavier nuclei, w
 matter density <span class="mathjax-inline">\(\rho _m(0)\)</span> is approximately <i>constant for all nuclei</i>.
 </p> 
 <p>   High-precision studies indicate that the charge and matter radii of nuclei are nearly equal, typically
-within about <span class="mathjax-inline">\(0.1\,\text {fm}\)</span>. Both show a dependence on the mass number <span class="mathjax-inline">\(A\)</span> leading to: </p> 
-<div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:radius} R_N \approx r_0 A^{1/3}, \quad r_0 \approx 1.2\,\text {fm}. \end{equation}</div><a 
+within about <span class="mathjax-inline">\(0.1\,\text {fm}\)</span>. Both show a dependence on the mass number <span class="mathjax-inline">\(A\)</span> leading to a <i>hard-sphere</i> equivalent radius <span class="mathjax-inline">\(R_K\)</span>:
+</p> 
+<div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:radius} R_K \approx r_0 A^{1/3}, \quad r_0 \approx 1.2\,\text {fm}. \end{equation}</div><a 
  id="x1-11007r4"></a>
    
    <h4 class="subsectionHead"><span class="titlemark">1.5.3   </span> <a 
