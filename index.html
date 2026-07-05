@@ -373,9 +373,16 @@ href="#QQ2-1-9" id="x1-70001.3.1">Cross Section</a></h4>
 <p>In practice, what is measured in experiments is a <i>cross section</i> (see Fig. <a 
 href="#x1-7001r2">1.2<!--tex4ht:ref: fig:CrossSectionSketch --></a>). The <i>cross section</i> <span class="mathjax-inline">\(\sigma \)</span> is
 defined as </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \frac {\text {Number of interactions per unit time per target particle}} {\text {Incident particle flux}} \,. \end{equation*}</div> The cross section has dimensions of area, the most often used unit is the <i>barn</i> (<span class="mathjax-inline">\(10^{-28}\)</span> m<span class="mathjax-inline">\(^2\)</span>). It can be
-interpreted as the effective area of a “piece” taken out of the incoming bunch of particles by each particle
-in the target.
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \frac {\text {Number of interactions per unit time per target particle}} {\text {Incident particle flux}} \,. \end{equation*}</div>
+<p>   The cross section has dimensions of area, the most often used unit is the <i>barn</i> (<span class="mathjax-inline">\(10^{-28}\)</span> m<span class="mathjax-inline">\(^2\)</span>). The cross section
+is the area of the ring <span class="mathjax-inline">\(2\pi \ b\ db \)</span> within the incoming particles must be in order to scatter into a range of angles. It
+can be interpreted as the effective area of a “piece” taken out of the incoming bunch of particles by each
+particle in the target.
+</p> 
+<p>   The cross section for scattering into angles <span class="mathjax-inline">\(\theta \)</span> or greater can be obtained by integrating <a 
+href="#x1-6002r1">1.1<!--tex4ht:ref: eq:Rutherford_impact --></a>:
+</p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \int _0^{b(\theta )} 2\pi \ b\ db = \pi ^2 b(\theta ). \end{equation*}</div>
 <p>   <figure class="figure"> 
 
                                                                                          
@@ -400,9 +407,6 @@ href="#XDemtroder:2022afs">1</a>].                               </span></figcap
 <p>   In this form, the Rutherford scattering formula is: </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\mathrm {d}\sigma }{\mathrm {d}\Omega } = \frac {(Z_1 Z_2 e^2)^2}{\left (16 \pi \varepsilon _0 E_{\text {kin}}\right )^2} \frac {1}{\sin ^4(\theta /2)}, \end{equation*}</div> see <a 
 href="#x1-84000A.2">A.2<!--tex4ht:ref: sec:Rutherford_diff --></a> for its derivation.
-<p>   Notice that Rutherford was “quite lucky”, in the sense that, in this case, the classical treatment he
-applied gives the same result as a fully quantum-mechanical calculation.
-</p> 
 <p>   Differential cross sections are not restricted to angular distributions. In some situations, it is the
 energy distribution of the scattered particle that is sensitive to the underlying fundamental physics. In
 other situations, one might be interested in the joint angular and energy distribution of the scattered
@@ -413,7 +417,11 @@ the form of an unknown law of force. For example, one can assume that the potent
 like </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} V(r) = K \frac {e^{-r/r_0}}{r^n}, \end{equation*}</div> and see if <span class="mathjax-inline">\(K\)</span>, <span class="mathjax-inline">\(n\)</span>, and <span class="mathjax-inline">\(r_0\)</span> can be chosen so as to obtain a fit to the measured cross section in the
 data.
+<p>   As an aside Rutherford was “quite lucky”, in the sense that, in this case, the classical treatment he
+applied gives the same result as a fully quantum-mechanical calculation.
    
+   </p> 
+
    <h4 class="subsectionHead"><span class="titlemark">1.3.2   </span> <a 
 href="#QQ2-1-11" id="x1-80001.3.2">Example: Alpha Particle Scattering from Platinum Foil</a></h4>
 <p>We will use a setup that, although idealised, is similar to the early experiments of Geiger and
@@ -449,21 +457,19 @@ href="#Xpovh2015particles">3</a>].        </span></figcaption><!--tex4ht:label?:
 <p>   From Equation (<a 
 href="#x1-6002r1">1.1<!--tex4ht:ref: eq:Rutherford_impact --></a>), the impact parameter <span class="mathjax-inline">\(b\)</span> is related to the scattering angle <span class="mathjax-inline">\(\theta \)</span> by </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {Z_1 Z_2 e^2} {4\pi \varepsilon _0 m v_0^2} \cot (\theta /2). \end{equation*}</div> Using <span class="mathjax-inline">\(m v_0^2 = 2E_{\text {kin}}\)</span>, this
-becomes <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \cot (\theta /2). \end{equation*}</div> For a particle to be deflected by <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span>, it must approach the nucleus within an area defined by the
-impact parameter corresponding to <span class="mathjax-inline">\(\theta = 90^\circ \)</span> <div class="mathjax-env mathjax-equation*">\begin{equation*} b_{90} = \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}}, \end{equation*}</div> and <span class="mathjax-inline">\(\theta = 180^\circ \)</span> in which case <span class="mathjax-inline">\(b_{180}=0\)</span>. Note that because <span class="mathjax-inline">\(\cot (\theta /2)\)</span> decreases as <span class="mathjax-inline">\(\theta \)</span> increases,
-larger scattering angles correspond to smaller impact parameters.
-<p>   The cross section of a single nucleus for scattering through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span> is therefore </p> 
+becomes <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \cot (\theta /2). \end{equation*}</div>
+<p>   The cross section of a single nucleus for scattering through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span> is </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma _{\ge 90^\circ } = \pi b_{90}^2 = \pi \left ( \frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \right )^2. \end{equation*}</div>
 <p>   For a sufficiently thin foil, the probability of an <span class="mathjax-inline">\(\alpha \)</span>-particle undergoing more than one large-angle
 scattering event is negligible. Therefore, the total effective cross section area by all nuclei within the beam
 area element <span class="mathjax-inline">\(\Delta A\)</span> is </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} A_{\text {eff},\ge 90^\circ } = N\,\sigma _{\ge 90^\circ } = n\,\Delta A\,d\,\sigma _{\ge 90^\circ }. \end{equation*}</div> Here, <span class="mathjax-inline">\(N\)</span> is the number of platinum nuclei contained within the corresponding volume
+<div class="mathjax-env mathjax-equation*">\begin{equation*} A_{\text {eff},\ge 90^\circ } = N\,\sigma _{\ge 90^\circ } = (n\,\Delta A\,d)\,\sigma _{\ge 90^\circ }. \end{equation*}</div> Here, <span class="mathjax-inline">\(N\)</span> is the number of platinum nuclei contained within the corresponding volume
 element <span class="mathjax-inline">\(\Delta A\,d\)</span>: <div class="mathjax-env mathjax-equation*">\begin{equation*} N = n\,\Delta A\,d, \end{equation*}</div> where <span class="mathjax-inline">\(n\)</span> is the number density of platinum nuclei: <div class="mathjax-env mathjax-equation*">\begin{equation*} n = \frac {\rho N_A}{M}, \end{equation*}</div> with <span class="mathjax-inline">\(\rho \)</span> the mass density, <span class="mathjax-inline">\(M\)</span> the molar mass, and <span class="mathjax-inline">\(N_A\)</span>
 Avogadro’s number.
 <p>   The fraction <span class="mathjax-inline">\(f\)</span> of incident particles scattered through angles <span class="mathjax-inline">\(\theta \ge 90^\circ \)</span> corresponds to the probability that an
 incident particle hits the effective area presented by the nuclei within the foil. This is equal to the ratio of
-the total effective area <span class="mathjax-inline">\(A_{\text {eff},\ge 90^\circ }\)</span> to the incident beam area <span class="mathjax-inline">\(\Delta A\)</span>: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} f = \frac {A_{\text {eff},\ge 90^\circ }} {\Delta A} = n\,d\,\sigma _{\ge 90^\circ }. \end{equation*}</div> Substituting the expression for the number density
+the total effective area <span class="mathjax-inline">\(\Delta A_{\text {eff},\ge 90^\circ }\)</span> to the incident beam area <span class="mathjax-inline">\(\Delta A\)</span>: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} f = \frac {\Delta A_{\text {eff},\ge 90^\circ }} {\Delta A} = \frac {(n\,d \Delta A)\,\sigma _{\ge 90^\circ }}{\Delta A}= n\,d\,\sigma _{\ge 90^\circ }. \end{equation*}</div> Substituting the expression for the number density
 and <span class="mathjax-inline">\(\sigma _{\ge 90^\circ }\)</span> gives <div class="mathjax-env mathjax-equation*">\begin{equation*} f =\frac {\rho N_A d}{M} \,\pi \left (\frac {Z_1 Z_2 e^2} {8\pi \varepsilon _0 E_{\text {kin}}} \right )^2. \end{equation*}</div>
 <p>   Using </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \pi \left [ \frac {Z_1 Z_2} {2E_{\text {kin}}} \left ( \frac {e^2}{4\pi \varepsilon _0} \right ) \right ]^2 = \pi \left [ \frac {2\times 78} {2\times 5} \times 1.44\times 10^{-13} \right ]^2 ~\mathrm {cm}^2 \simeq 1.59\times 10^{-23} ~\mathrm {cm}^2. \end{equation*}</div> and the number density of platinum nuclei <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\rho N_A}{M} = \frac { (21.45~\mathrm {g/cm^3}) (6.022\times 10^{23}~\mathrm {mol^{-1}}) }{ 195.08~\mathrm {g/mol} } \simeq 6.62\times 10^{22}~\mathrm {cm^{-3}}, \end{equation*}</div> we have <div class="mathjax-env mathjax-equation*">\begin{equation*} f = (6.62\times 10^{22} \mathrm {cm^{-3}}) (1.2\times 10^{-4} \mathrm {cm}) (1.59\times 10^{-23}\mathrm {cm}^2) \simeq 1.26\times 10^{-4}. \end{equation*}</div>
@@ -907,14 +913,13 @@ nuclei are those with <span class="mathjax-inline">\(A \approx 62\)</span>, such
 <p>   </figure>
 </p> 
 <p>   The above expressions use the masses of the nucleus and of free protons and neutrons. To the
-accuracy of the approximation in which the atomic electron binding energy (which is of the order of a
-few keV) is ignored, it is more practical to work with <i>atomic masses</i> <span class="mathjax-inline">\(M(A,Z)\)</span>. As an example, for <span class="mathjax-inline">\(\ce {^4_2He}\)</span>
-the nuclear mass is <span class="mathjax-inline">\(M_\mathcal {N} = 4.0015061\,\text {u}\)</span>, while the atomic mass is <span class="mathjax-inline">\(M = 4.002603254\,\text {u}\)</span>. When using atomic masses, equation <a 
-href="#x1-23002r4">2.4<!--tex4ht:ref: eq:mass_defect --></a>
-becomes </p> 
+accuracy of the approximation in which the atomic electron binding energy (which is of the order of a few
+keV) is ignored, it is more practical to work with <i>atomic masses</i> <span class="mathjax-inline">\(M(A,Z)\)</span>. When using atomic masses,
+equation <a 
+href="#x1-23002r4">2.4<!--tex4ht:ref: eq:mass_defect --></a> becomes </p> 
 <div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:mass_defect_atomic} \Delta M(A,Z) = Z M_H + N m_n - M(A,Z) = \frac {E_B(A,Z)}{c^2}, \end{equation}</div><a 
- id="x1-23004r5"></a> where <span class="mathjax-inline">\(M_H\)</span> is the atomic mass of the neutral hydrogen atom. The <span class="mathjax-inline">\(Z\)</span> electrons included in
-the <span class="mathjax-inline">\(Z\)</span> hydrogen atoms are balanced by the <span class="mathjax-inline">\(Z\)</span> electrons present in the neutral atom of atomic
+ id="x1-23004r5"></a> where <span class="mathjax-inline">\(M_H\)</span> is the atomic mass of the neutral hydrogen atom. The <span class="mathjax-inline">\(Z\)</span> electrons included
+in the <span class="mathjax-inline">\(Z\)</span> hydrogen atoms are balanced by the <span class="mathjax-inline">\(Z\)</span> electrons present in the neutral atom of atomic
 number <span class="mathjax-inline">\(Z\)</span>, so the electron masses, but not the electrons’ atomic binding energy equivalent,
 cancel.
 <p>   The binding energy per nucleon <span class="mathjax-inline">\(E_B/A\)</span> increases rapidly with increasing atomic mass number <span class="mathjax-inline">\(A\)</span>, reaches a
@@ -1127,7 +1132,7 @@ proton pairs, the Coulomb contribution is </p>
 </p> 
 <p><img 
 src="pic/Binding_Energy_Contributions.png" alt="PIC"  
-style="width:38.5%"> <a 
+style="width:49.5%"> <a 
  id="x1-28001r5"></a>
 <figcaption class="caption" ><span class="id">Figure 2.5: </span><span  
 class="content">The different contributions to the binding energy for <span class="mathjax-inline">\(A &gt; 20\)</span> Source [<a 
@@ -1379,7 +1384,7 @@ shells.
 <p>   <span style="display: hidden">\(\nextChapter \)</span></p> 
 <h3 class="chapterHead"><span class="titlemark">Chapter 3</span> <a 
 href="#QQ2-1-53" id="x1-350003">Nuclear Decays</a></h3>
-<p>   Nuclear decay occurs whenever a nucleus containing a given number of nucleons has a total
+<p>   Nuclear decay can occur whenever a nucleus containing a given number of nucleons has a total
 energy greater than that of an allowed final configuration. Unstable nuclei decay spontaneously
 after a finite time into other nuclei, either by emission of particles (<span class="mathjax-inline">\(\alpha \)</span>, <span class="mathjax-inline">\(n\)</span>, <span class="mathjax-inline">\(\beta ^{-}\)</span>, <span class="mathjax-inline">\(\beta ^{+}\)</span>) or by fission into
 fragments. Excited nuclei may also transition to lower energy states through the emission of <span class="mathjax-inline">\(\gamma \)</span>
@@ -1988,20 +1993,21 @@ damage.
 <p>   <span style="display: hidden">\(\nextChapter \)</span></p> 
 <h3 class="chapterHead"><span class="titlemark">Chapter 4</span> <a 
 href="#QQ2-1-88" id="x1-600004">Nuclear Reactions</a></h3>
-<p>   If energetic particles from a reactor, accelerator, or radioactive source are allowed to fall upon bulk
-matter, a nuclear reaction may occur. The first such reactions were conducted in Rutherford’s
-laboratory, using <span class="mathjax-inline">\(\alpha \)</span> particles from a radioactive source. In some of these early experiments, <span class="mathjax-inline">\(\alpha \)</span> particles
-merely rebounded from target nuclei. In other experiments, Rutherford was able to observe a
-transformation (or transmutation) of nuclear species, as in this reaction from 1919: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {^{14}N + $\alpha $ -&gt; ^{17}O + p}. \end{equation*}</div> The
-first particle accelerator capable of inducing nuclear reactions was built by Cockcroft and
-Walton, who in 1930 observed the reaction: <div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {p + ^7Li -&gt; ^4He + $\alpha $}. \end{equation*}</div> A typical nuclear reaction can be expressed as: <div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {X + a -&gt; Y + b}, \end{equation*}</div>
-where “<span class="mathjax-inline">\(\ce {a}\)</span>” is the incoming projectile, <span class="mathjax-inline">\( \ce {X}\)</span> is the target nucleus, and <span class="mathjax-inline">\(\ce {Y}\)</span> and <span class="mathjax-inline">\(\ce {b}\)</span> are the products. An
-alternative notational form is: <div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {X(a, b)Y}. \end{equation*}</div> Reactions can be classified as: <div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {X + a -&gt;} \begin {cases} \ce {X + a} &amp; \text {\textit {elastic scattering}} \\ \ce {X^* + a} &amp; \text {\textit {inelastic scattering}} \\ \ce {Y + b} &amp; \text {\textit {nuclear transformation}} \end {cases} \end{equation*}</div> In this context, the first two
-reactions involve the <i>projectile</i> re-emerging post-reaction. The first represents <i>elastic scattering</i>,
-where <span class="mathjax-inline">\(\ce {a}\)</span> retains its energy (in the centre-of-mass system), and the target nucleus <span class="mathjax-inline">\(\ce {X}\)</span> remains
-unchanged. The second represents <i>inelastic scattering</i>, wherein the nucleus <span class="mathjax-inline">\(\ce {X}\)</span> is excited to
-<span class="mathjax-inline">\(\ce {X^*}\)</span>.
+<p>   If energetic particles from a reactor, accelerator, or radioactive source are allowed to fall
+upon bulk matter, a nuclear reaction may occur. The first such reactions were conducted in
+Rutherford’s laboratory, using <span class="mathjax-inline">\(\alpha \)</span> particles from a radioactive source. In some of these early
+experiments, <span class="mathjax-inline">\(\alpha \)</span> particles merely rebounded from target nuclei. In other experiments, Rutherford was
+able to observe a transformation (or transmutation) of nuclear species, as in this reaction
+from 1919: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {^{14}N + $\alpha $ -&gt; ^{17}O + p}. \end{equation*}</div> The first particle accelerator capable of inducing nuclear reactions was built by
+Cockcroft and Walton, who in 1930 observed the reaction: <div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {p + ^7Li -&gt; ^4He + $\alpha $}. \end{equation*}</div> A typical nuclear reaction can be
+expressed as: <div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {X + a -&gt; Y + b}, \end{equation*}</div> where “<span class="mathjax-inline">\(\ce {a}\)</span>” is the incoming projectile, <span class="mathjax-inline">\( \ce {X}\)</span> is the target nucleus, and <span class="mathjax-inline">\(\ce {Y}\)</span> and <span class="mathjax-inline">\(\ce {b}\)</span> are the
+products.
+<p>   Reactions can be classified as: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {X + a -&gt;} \begin {cases} \ce {X + a} &amp; \text {\textit {elastic scattering}} \\ \ce {X^* + a} &amp; \text {\textit {inelastic scattering}} \\ \ce {Y + b} &amp; \text {\textit {nuclear transformation}} \end {cases} \end{equation*}</div> In this context, the first two reactions involve the <i>projectile</i>
+re-emerging post-reaction. The first represents <i>elastic scattering</i>, where <span class="mathjax-inline">\(\ce {a}\)</span> retains its energy (in the
+centre-of-mass system), and the target nucleus <span class="mathjax-inline">\(\ce {X}\)</span> remains unchanged. The second represents <i>inelastic
+scattering</i>, wherein the nucleus <span class="mathjax-inline">\(\ce {X}\)</span> is excited to <span class="mathjax-inline">\(\ce {X^*}\)</span>.
    
    <h3 class="sectionHead"><span class="titlemark">4.1   </span> <a 
 href="#QQ2-1-89" id="x1-610004.1">Q-Value and Threshold Energy</a></h3>
@@ -2030,10 +2036,7 @@ balanced by an equal change in its rest energy.
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \begin {aligned} T_{\mathrm {Y}} + T_{\mathrm {b}} &amp;&gt;0 \\ Q + (T_{\mathrm {X}} + T_{\mathrm {a}}) &amp;&gt; 0 . \end {aligned} \end{equation*}</div>
 <p>   For a reaction to occur, <i>energy conservation</i> is necessary but not sufficient. In addition, electric
 charge, nuclear number (baryon number), and lepton number must also be conserved, as in particle
-decays. A reaction being <i>possible</i> does not imply it is <i>probable</i>. For example, the <span class="mathjax-inline">\(\alpha \)</span>-decay of <span class="mathjax-inline">\(^{238}\)</span>U is
-energetically allowed but proceeds very slowly due to quantum tunnelling. In nuclear reactions we can
-control particle energies; by adjusting them, we can, at least in theory, make a reaction possible and
-control its <i>cross section</i>.
+decays.
    
    </p> 
 
