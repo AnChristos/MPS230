@@ -375,14 +375,14 @@ href="#x1-7001r2">1.2<!--tex4ht:ref: fig:CrossSectionSketch --></a>). The <i>cro
 defined as </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \frac {\text {Number of interactions per unit time per target particle}} {\text {Incident particle flux}} \,. \end{equation*}</div>
 <p>   The cross section has dimensions of area, the most often used unit is the <i>barn</i> (<span class="mathjax-inline">\(10^{-28}\)</span> m<span class="mathjax-inline">\(^2\)</span>). The cross section
-is the area of the ring <span class="mathjax-inline">\(2\pi \ b\ db \)</span> within the incoming particles must be in order to scatter into a range of angles. It
+is the area of the ring <span class="mathjax-inline">\(2\pi \ \cdot b\ \cdot db \)</span> within the incoming particles must be in order to scatter into a range of angles. It
 can be interpreted as the effective area of a “piece” taken out of the incoming bunch of particles by each
 particle in the target.
 </p> 
 <p>   The cross section for scattering into angles <span class="mathjax-inline">\(\theta \)</span> or greater can be obtained by integrating <a 
 href="#x1-6002r1">1.1<!--tex4ht:ref: eq:Rutherford_impact --></a>:
 </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \int _0^{b(\theta )} 2\pi \ b\ db = \pi b^2(\theta ). \end{equation*}</div>
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \int _0^{b(\theta )} 2\pi \ \cdot b\ \cdot db = \pi b^2(\theta ). \end{equation*}</div>
 <p>   <figure class="figure"> 
 
                                                                                          
@@ -558,9 +558,6 @@ nuclear forces contribute to the scattering. For electrons, only the electromagn
 so one essentially measures the charge distribution. Many high-precision measurements using
 high-energy electrons have been carried out at different accelerators since the middle of the
 1950s.
-</p> 
-<p>   Scattering of electrons from a nuclear potential is a three dimensional quantum mechanical problem
-that will be covered in next year’s particle physics module.
 </p> 
 <p>   <figure class="figure"> 
 
@@ -1588,13 +1585,15 @@ and <span class="mathjax-inline">\(\alpha \)</span> move with equal and opposite
 <p>   <span class="mathjax-inline">\(\alpha \)</span> decays typically release energies of order <span class="mathjax-inline">\(5~\mathrm {MeV}\)</span>. Since this is much smaller than the rest energies of the
 particles, <span class="mathjax-inline">\(T \ll mc^2\)</span>, we may safely use the non- relativistic approximation. Writing <span class="mathjax-inline">\(T = p^2/2m\)</span>, the momentum relation gives </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_D}{T_\alpha } = \frac {\frac {|\mathbf {p_D}|^2}{2m_D}}{\frac {|\mathbf {p_\alpha }|2}{2m_\alpha }} = \frac {m_\alpha }{m_D}. \end{equation*}</div>
-Therefore the kinetic energies satisfy <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_\alpha }{T_D} = \frac {m_D}{m_\alpha }, \T_\alpha + T_D = Q, \end{equation*}</div> which gives <div class="mathjax-env mathjax-equation*">\begin{equation*} T_D = Q \frac {m_\alpha }{m_\alpha + m_D}, \T_\alpha = Q \frac {m_D}{m_\alpha + m_D}. \end{equation*}</div> For heavy nuclei <span class="mathjax-inline">\((A \gg 4)\)</span>, the kinetic energies can be
-approximated as <div class="mathjax-env mathjax-equation*">\begin{equation*} T_\alpha \approx \frac {A-4}{A}\,Q, \T_D \approx \frac {4}{A}\,Q. \end{equation*}</div> Typically, the <span class="mathjax-inline">\(\alpha \)</span> particle carries about <span class="mathjax-inline">\(98\%\)</span> of the <span class="mathjax-inline">\(Q\)</span> value, while the much heavier daughter
-nucleus carries only about <span class="mathjax-inline">\(2\%\)</span>. This recoil energy is not negligible. For a representative <span class="mathjax-inline">\(Q \approx 5~\mathrm {MeV}\)</span>, the recoiling
-nucleus has an energy of order <span class="mathjax-inline">\(100~\mathrm {keV}\)</span>, which exceeds typical atomic binding energies in solids. If the decay
+Therefore the kinetic energies satisfy <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_\alpha }{T_D} = \frac {m_D}{m_\alpha }, \T_\alpha + T_D = Q, \end{equation*}</div> which gives <div class="mathjax-env mathjax-equation*">\begin{equation*} T_D = Q \frac {m_\alpha }{m_\alpha + m_D}, \T_\alpha = Q \frac {m_D}{m_\alpha + m_D}. \end{equation*}</div>
+<p>   Typically, the <span class="mathjax-inline">\(\alpha \)</span> particle carries about <span class="mathjax-inline">\(98\%\)</span> of the <span class="mathjax-inline">\(Q\)</span> value, while the much heavier daughter nucleus carries
+only about <span class="mathjax-inline">\(2\%\)</span>. This recoil energy is not negligible. For a representative <span class="mathjax-inline">\(Q \approx 5~\mathrm {MeV}\)</span>, the recoiling nucleus has
+an energy of order <span class="mathjax-inline">\(100~\mathrm {keV}\)</span>, which exceeds typical atomic binding energies in solids. If the decay
 occurs near the surface of a source, the recoiling nucleus may also escape into the surrounding
 material.
    
+   </p> 
+
    <h4 class="subsectionHead"><span class="titlemark">3.2.3   </span> <a 
 href="#QQ2-1-65" id="x1-450003.2.3">Example: Alpha decay of Radium-226 to Radon-222</a></h4>
 <p>Calculate the kinetic energies (in MeV) and velocities (in units of <span class="mathjax-inline">\(c\)</span>) of the products of the decay
@@ -1774,25 +1773,15 @@ class="content">Mass parabola for <span class="mathjax-inline">\(A=125\)</span> 
                                                                                          
 </p> 
 <p>   </figure>
-</p> 
-<p>   Early experiments showed that the negative <span class="mathjax-inline">\(\beta \)</span> particles have the same electric charge and
-charge-to-mass ratio as ordinary electrons. If electrons were confined within the nuclear volume, their
-spatial position would be limited to </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \Delta x\,\Delta y\,\Delta z \sim \Delta V \sim (R_N)^3 . \end{equation*}</div> According to Heisenberg’s uncertainty relation this implies a
-momentum uncertainty <div class="mathjax-env mathjax-equation*">\begin{equation*} \Delta p \sim \frac {\hbar }{\Delta x} \sim \frac {\hbar }{R_N}, \end{equation*}</div> and therefore a minimum kinetic energy <div class="mathjax-env mathjax-equation*">\begin{equation*} E_{\mathrm {kin}} \sim \frac {(\Delta p)^2}{2m_e} \sim \frac {\hbar ^2}{2m_e R_N^2}. \end{equation*}</div> Inserting numerical values,
-for example for an oxygen nucleus (<span class="mathjax-inline">\(A=16\)</span>) with <span class="mathjax-inline">\(R_N \approx 3\times 10^{-15}\,\mathrm {m}\)</span>, gives <div class="mathjax-env mathjax-equation*">\begin{equation*} E_{\mathrm {kin}} \gtrsim 10^{11}\ \mathrm {eV}. \end{equation*}</div> This is many orders of magnitude larger
-than the typical electrostatic binding energy (<span class="mathjax-inline">\(|E_B| \sim 10^{6}\ \mathrm {eV}\)</span>, electron-proton Coulomb energy in an atom).
-Hence electrons cannot be stable inside the nucleus. Therefore, the electron must be created
-from the available decay energy at the instant of decay and is immediately emitted. This
-contrasts with <span class="mathjax-inline">\(\alpha \)</span> decay, where the <span class="mathjax-inline">\(\alpha \)</span> particle may be considered as already existing inside the
-nucleus.
    
+   </p> 
+
    <h4 class="subsectionHead"><span class="titlemark">3.3.1   </span> <a 
 href="#QQ2-1-73" id="x1-490003.3.1">The Neutrino</a></h4>
 <p>A puzzling experimental observation, already seen in the 1910s and studied extensively in the 1920s, was
 the continuous energy distribution of the <span class="mathjax-inline">\(\beta \)</span> electrons. In <span class="mathjax-inline">\(\alpha \)</span> decay the emitted particles have sharp,
-well-defined energies determined by the difference in mass energy between the initial and final states. If <span class="mathjax-inline">\(\beta \)</span>
-decay was also a two-body process, one would expect a unique electron energy. Instead, the spectrum is
+well-defined energies determined by the difference in energy between the initial and final states. If <span class="mathjax-inline">\(\beta \)</span> decay
+was also a two-body process, one would expect a unique electron energy. Instead, the spectrum is
 continuous,see Fig. <a 
 href="#x1-49001r7">3.7<!--tex4ht:ref: fig:Electron_continuous_beta --></a>, with </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} 0 \leq E_\beta \leq E_{\max }. \end{equation*}</div>
@@ -1893,11 +1882,11 @@ href="#XDemtroder:2022afs">1</a>].
 <p></figure>
 </p> 
 <p>   In <span class="mathjax-inline">\(\beta ^+\)</span> decay, a proton converts into a neutron, emitting a positron and a neutrino: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {p -&gt; n + e^+ + \nu _e}. \end{equation*}</div> This process is
-possible only if the resulting neutron can occupy a lower energy level than the original proton; a free
-proton cannot undergo this decay, see Fig. <a 
-href="#x1-52001r9">3.9<!--tex4ht:ref: fig:BetaPlus_sketch --></a>.
-<p>   Thus, <span class="mathjax-inline">\(\beta ^+\)</span> decay transforms <span class="mathjax-inline">\(\ce {^A_Z X}\)</span> into <span class="mathjax-inline">\(\ce {^A_{Z-1} Y}\)</span>, emitting a positron and a neutrino: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {p -&gt; n + e^+ + \nu _e}, \end{equation*}</div> see Fig. <a 
+href="#x1-52001r9">3.9<!--tex4ht:ref: fig:BetaPlus_sketch --></a>. A free
+proton cannot undergo this decay. Therefore, this process is possible only if the resulting neutron can
+occupy a lower energy level than the original proton.
+<p>   <span class="mathjax-inline">\(\beta ^+\)</span> decay transforms <span class="mathjax-inline">\(\ce {^A_Z X}\)</span> into <span class="mathjax-inline">\(\ce {^A_{Z-1} Y}\)</span>, emitting a positron and a neutrino: </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \ce {^A_Z X -&gt; ^A_{Z-1} Y + e^+ + \nu _e}. \end{equation*}</div> When using atomic masses,
 the positron mass does not cancel: <div class="mathjax-env mathjax-equation*">\begin{equation*} Q_{\beta ^+} = \Big \{ \big [ M(A,Z) - Z m_e \big ] - \big [ M(A,Z-1) - (Z-1) m_e \big ] - m_e \Big \} c^{2} + \Big \{ \sum _{i=1}^{Z} B_{\mathrm {atom},i} - \sum _{i=1}^{Z-1} B_{\mathrm {atom},i} \Big \}. \end{equation*}</div> Therefore, again ignoring atomic binding energies, the
 Q-value is: <div class="mathjax-env mathjax-equation*">\begin{equation*} Q_{\beta ^+} = \big [M(A,Z) - M(A,Z-1) - 2 m_e\big ] c^2, \end{equation*}</div> where <span class="mathjax-inline">\(2 m_e c^2\)</span> accounts for the positron mass and the missing electron in the daughter
