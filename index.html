@@ -374,15 +374,13 @@ href="#QQ2-1-9" id="x1-70001.3.1">Cross Section</a></h4>
 href="#x1-7001r2">1.2<!--tex4ht:ref: fig:CrossSectionSketch --></a>). The <i>cross section</i> <span class="mathjax-inline">\(\sigma \)</span> is
 defined as </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \frac {\text {Number of interactions per unit time per target particle}} {\text {Incident particle flux}} \,. \end{equation*}</div>
-<p>   The cross section has dimensions of area, the most often used unit is the <i>barn</i> (<span class="mathjax-inline">\(10^{-28}\)</span> m<span class="mathjax-inline">\(^2\)</span>). The cross section
-is the area of the ring <span class="mathjax-inline">\(2\pi \ \cdot b\ \cdot db \)</span> within the incoming particles must be in order to scatter into a range of angles. It
-can be interpreted as the effective area of a “piece” taken out of the incoming bunch of particles by each
+<p>   The cross section has dimensions of area, and the most commonly used unit is the <i>barn</i> (<span class="mathjax-inline">\(10^{-28}\)</span> m<span class="mathjax-inline">\(^2\)</span>). It can
+be interpreted as the effective area of a “piece” taken out of the incoming bunch of particles by each
 particle in the target.
 </p> 
-<p>   The cross section for scattering into angles <span class="mathjax-inline">\(\theta \)</span> or greater can be obtained by integrating <a 
-href="#x1-6002r1">1.1<!--tex4ht:ref: eq:Rutherford_impact --></a>:
-</p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \int _0^{b(\theta )} 2\pi \ \cdot b\ \cdot db = \pi b^2(\theta ). \end{equation*}</div>
+<p>   The cross section for scattering into an angle between <span class="mathjax-inline">\(\theta \)</span> and <span class="mathjax-inline">\(\theta +\mathrm {d}\theta \)</span> is just the area of the ring <span class="mathjax-inline">\(2\pi \, b \, \mathrm {d}b\)</span>. The cross
+section for scattering into angles <span class="mathjax-inline">\(\theta \)</span> or greater can be obtained by integrating: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \int _0^{b(\theta )} 2\pi \, b \, \mathrm {d}b = \pi b^2(\theta ). \end{equation*}</div>
 <p>   <figure class="figure"> 
 
                                                                                          
@@ -405,19 +403,14 @@ href="#XDemtroder:2022afs">1</a>].                               </span></figcap
 <p>   The <i>differential cross section</i> is defined as </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\mathrm {d}\sigma }{\mathrm {d}\Omega } = \frac {\text {Number of particles scattered into } \mathrm {d}\Omega \text { per unit time per target particle}} {\text {Incident particle flux}} \,, \end{equation*}</div> where the element of solid angle is <div class="mathjax-env mathjax-equation*">\begin{equation*} \mathrm {d}\Omega = \sin \theta \, \mathrm {d}\theta \, \mathrm {d}\phi \,. \end{equation*}</div>
 <p>   In this form, the Rutherford scattering formula is: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\mathrm {d}\sigma }{\mathrm {d}\Omega } = \frac {(Z_1 Z_2 e^2)^2}{\left (16 \pi \varepsilon _0 E_{\text {kin}}\right )^2} \frac {1}{\sin ^4(\theta /2)}, \end{equation*}</div> see <a 
-href="#x1-83000A.2">A.2<!--tex4ht:ref: sec:Rutherford_diff --></a> for its derivation.
-<p>   Differential cross sections are not restricted to angular distributions. In some situations, it is the
-energy distribution of the scattered particle that is sensitive to the underlying fundamental physics. In
-other situations, one might be interested in the joint angular and energy distribution of the scattered
-particles.
-</p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\mathrm {d}\sigma }{\mathrm {d}\Omega } = \frac {(Z_1 Z_2 e^2)^2}{\left (16 \pi \varepsilon _0 E_{\text {kin}}\right )^2} \frac {1}{\sin ^4(\theta /2)}, \end{equation*}</div> for its derivation, see <a 
+href="#x1-83000A.2">A.2<!--tex4ht:ref: sec:Rutherford_diff --></a>.
 <p>   So far, we have assumed that the law of force is known. Very often, however, one tries to investigate
-the form of an unknown law of force. For example, one can assume that the potential takes a simple form
-like </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} V(r) = K \frac {e^{-r/r_0}}{r^n}, \end{equation*}</div> and see if <span class="mathjax-inline">\(K\)</span>, <span class="mathjax-inline">\(n\)</span>, and <span class="mathjax-inline">\(r_0\)</span> can be chosen so as to obtain a fit to the measured cross section in the
+the form of an unknown law of force. For example, one can assume that the potential takes a
+simple form like </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} V(r) = K \frac {e^{-r/r_0}}{r^n}, \end{equation*}</div> and see if <span class="mathjax-inline">\(K\)</span>, <span class="mathjax-inline">\(n\)</span>, and <span class="mathjax-inline">\(r_0\)</span> can be chosen to obtain a fit to the measured cross section
 data.
-<p>   As an aside Rutherford was “quite lucky”, in the sense that, in this case, the classical treatment he
+<p>   As an aside, Rutherford was “quite lucky” in the sense that, in this case, the classical treatment he
 applied gives the same result as a fully quantum-mechanical calculation.
    
    </p> 
@@ -1300,7 +1293,7 @@ potential.
 </p> 
 <p>   As shown in Fig. <a 
 href="#x1-32002r7">2.7<!--tex4ht:ref: fig:Fermi_lowZ --></a>, for small <span class="mathjax-inline">\(Z\)</span> the energy levels of the proton and neutron systems are the same in
-this approximation. For a fixed mass number <span class="mathjax-inline">\(A\)</span>, the total energy of the nucleus is minimized when <span class="mathjax-inline">\(Z = N\)</span>, since
+this approximation. For a fixed mass number <span class="mathjax-inline">\(A\)</span>, the total energy of the nucleus is minimized when <span class="mathjax-inline">\(Z \approx N\)</span>, since
 any deviation from this condition would require nucleons to occupy higher-energy levels than
 necessary.
 </p> 
@@ -2409,8 +2402,8 @@ href="#Xromanelli2024physics">8</a>]:
 <div class="mathjax-env mathjax-align*">\begin{align*} \sigma _{\rm tot} &amp;\approx 2.958~\text {barns} \\ k_{\rm fast} &amp;= \frac {(2.637)(0.0072)(1.235) + (2.655)(0.9928)(0.3084)}{2.958} \approx 0.283. \end{align*}</div>
 <p>   Since <span class="mathjax-inline">\(k &lt; 1\)</span>, a self-sustaining chain reaction is <i>impossible</i> in natural uranium with fast neutrons. Therefore,
 either the uranium must be enriched (increase <span class="mathjax-inline">\(F\)</span>) or neutrons must be moderated to thermal energies,
-where <span class="mathjax-inline">\( \sigma _f^{\ce {^{235}U}}\)</span> is significantly higher. In a more realistic calculation neutron leakage and absorption in non-fissile
-materials must also be considered.
+where <span class="mathjax-inline">\( \sigma _f^{\ce {^{235}U}}\)</span> is significantly higher, or both. In a more realistic calculation neutron leakage and absorption in
+non-fissile materials must also be considered.
    </p> 
 
    <h3 class="sectionHead"><span class="titlemark">4.3   </span> <a 
