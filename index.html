@@ -1432,17 +1432,17 @@ href="#Xkrane1987introductory">4</a>]                                           
 </p> 
 <p>   </figure>
 </p> 
-<p>   With these assumptions, we can estimate the Coulomb barrier felt by the emitted particle at the
-nuclear surface. The spatial range of the nuclear force can be approximated by </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} R = r_0 A^{1/3}, \quad r_0 \simeq 1.2~\mathrm {fm}. \end{equation*}</div> The maximum of the
-potential barrier occurs when the <span class="mathjax-inline">\(\alpha \)</span> particle and the daughter nucleus are just in contact, at a separation <div class="mathjax-env mathjax-equation*">\begin{equation*} r = R_D + R_\alpha = r_0 \left (A_D^{1/3} + A_\alpha ^{1/3}\right ), \end{equation*}</div>
-where <span class="mathjax-inline">\(A_\alpha = 4\)</span> and <span class="mathjax-inline">\(A_D = A - 4\)</span>.
+<p>   With these assumptions, we can estimate the height of the Coulomb barrier felt by the emitted
+particle at the nuclear surface. The spatial range of the nuclear force can be approximated by </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} R = r_0 A^{1/3}, \quad r_0 \simeq 1.2~\mathrm {fm}. \end{equation*}</div> The height
+of the Coulomb potential barrier occurs when the <span class="mathjax-inline">\(\alpha \)</span> particle and the daughter nucleus are just in contact,
+at a separation <div class="mathjax-env mathjax-equation*">\begin{equation*} r = R_D + R_\alpha = r_0 \left (A_D^{1/3} + A_\alpha ^{1/3}\right ), \end{equation*}</div> where <span class="mathjax-inline">\(A_\alpha = 4\)</span> and <span class="mathjax-inline">\(A_D = A - 4\)</span>.
 <p>   The Coulomb potential energy is </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} V(r) = \frac {1}{4\pi \varepsilon _0} \frac {(2e)(Z_D e)}{r}, \end{equation*}</div> where <span class="mathjax-inline">\(Z_D\)</span> is the daughter charge.
 <p>   Using the numerical values from the previous <span class="mathjax-inline">\(\alpha \)</span>-decay example: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} r = 1.2\left (222^{1/3} + 4^{1/3}\right )~\mathrm {fm} \approx 9.17~\mathrm {fm}, \end{equation*}</div> and <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {e^2}{4\pi \varepsilon _0} = 1.44~\mathrm {MeV\,fm}, \quad Z_D = 86, \end{equation*}</div> we obtain <div class="mathjax-env mathjax-equation*">\begin{equation*} V_{\text {max}} = \frac {2 \times 86 \times 1.44~\mathrm {MeV\,fm}}{9.17~\mathrm {fm}} \approx 27~\mathrm {MeV}. \end{equation*}</div>
-<p>   Classically, for the <span class="mathjax-inline">\(\alpha \)</span> particle to escape, the available energy <span class="mathjax-inline">\(Q\)</span> must exceed the maximum potential
-energy <span class="mathjax-inline">\(V_{\text {max}}\)</span>. However, <span class="mathjax-inline">\(V_{\text {max}} \approx 27~\mathrm {MeV}\)</span> is vastly larger than the available decay energy <span class="mathjax-inline">\(Q = 4.871~\mathrm {MeV}\)</span>.
+<div class="mathjax-env mathjax-equation*">\begin{equation*} r = 1.2\left (222^{1/3} + 4^{1/3}\right )~\mathrm {fm} \approx 9.17~\mathrm {fm}, \end{equation*}</div> and <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {e^2}{4\pi \varepsilon _0} = 1.44~\mathrm {MeV\,fm}, \quad Z_D = 86, \end{equation*}</div> we obtain <div class="mathjax-env mathjax-equation*">\begin{equation*} V_{\text {barrier}} = \frac {2 \times 86 \times 1.44~\mathrm {MeV\,fm}}{9.17~\mathrm {fm}} \approx 27~\mathrm {MeV}. \end{equation*}</div>
+<p>   Classically, for the <span class="mathjax-inline">\(\alpha \)</span> particle to escape, the available energy <span class="mathjax-inline">\(Q\)</span> must exceed the barrier potential energy <span class="mathjax-inline">\(V_{\text {barrier}}\)</span>.
+However, <span class="mathjax-inline">\(V_{\text {barrier}} \approx 27~\mathrm {MeV}\)</span> is vastly larger than the available decay energy <span class="mathjax-inline">\(Q = 4.871~\mathrm {MeV}\)</span>.
 </p> 
 <p>   We can identify three regions of interest in Fig. <a 
 href="#x1-39001r1">3.1<!--tex4ht:ref: fig:Alpha_potential --></a>:
@@ -1454,7 +1454,7 @@ class="enumerate-enumitem"><span class="mathjax-inline">\(r &lt; a\)</span>: Ins
      </dd><dt class="enumerate-enumitem">
    - </dt><dd 
 class="enumerate-enumitem"><span class="mathjax-inline">\(a &lt; r &lt; b\)</span>: The potential barrier region. Here the potential energy exceeds the total available energy <span class="mathjax-inline">\(Q\)</span>.
-     Classically, the <span class="mathjax-inline">\(\alpha \)</span> particle cannot enter this region from either side.
+     Classically, the <span class="mathjax-inline">\(\alpha \)</span> particle cannot cross this region.
      </dd><dt class="enumerate-enumitem">
    - </dt><dd 
 class="enumerate-enumitem"><span class="mathjax-inline">\(r &gt; b\)</span>: Classically allowed region outside the barrier. If the <span class="mathjax-inline">\(\alpha \)</span> particle reaches this region, it escapes.</dd></dl>
@@ -1511,13 +1511,11 @@ href="#XDemtroder:2022afs">1</a>]                                               
 <p>   </figure>
 </p> 
 <p>   For the transmission probability a good approximation is </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} T \propto e^{-G}, \end{equation*}</div> where <div class="mathjax-env mathjax-equation*">\begin{equation*} G \propto \frac {Z-2}{\sqrt {Q}}. \end{equation*}</div> The width of the Coulomb barrier
-through which the <span class="mathjax-inline">\(\alpha \)</span>-particle must tunnel increases for smaller values of <span class="mathjax-inline">\(E_\alpha \)</span> and larger values of <span class="mathjax-inline">\(Z\)</span>. As a result
-the tunnelling probability decreases. An exact treatment can be found in many textbooks; for
-example [<a 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} T \propto e^{-G}, \end{equation*}</div> where <div class="mathjax-env mathjax-equation*">\begin{equation*} G \propto \frac {Z_P-2}{\sqrt {Q}} \propto \frac {Z_D}{\sqrt {Q}}. \end{equation*}</div> An exact treatment can be found in
+many textbooks; for example [<a 
 href="#Xborn_atomic_physics">9</a>].
 <p>   If the above theory is correct then we expect that </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \log {\frac {\lambda }{10^{21} s^{-1}}} \propto -\frac {Z-2}{\sqrt {Q}}. \end{equation*}</div> Experimental results seem to verify this
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \log {\frac {\lambda }{10^{21} s^{-1}}} \propto -\frac {Z_D}{\sqrt {Q}}. \end{equation*}</div> Experimental results seem to verify this
 relationship as seen in Fig <a 
 href="#x1-39003r3">3.3<!--tex4ht:ref: fig:Gamow_model --></a>.
    
