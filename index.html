@@ -382,8 +382,9 @@ defined as </p>
 be interpreted as the effective area of a “piece” taken out of the incoming bunch of particles by each
 particle in the target.
 </p> 
-<p>   The cross section for scattering into an angle between <span class="mathjax-inline">\(\theta \)</span> and <span class="mathjax-inline">\(\theta +\mathrm {d}\theta \)</span> is just the area of the ring <span class="mathjax-inline">\(2\pi \, b \, \mathrm {d}b\)</span>. The cross
-section for scattering into angles <span class="mathjax-inline">\(\theta \)</span> or greater can be obtained by integrating: </p> 
+<p>   The cross section for scattering into an angle between <span class="mathjax-inline">\(\theta \)</span> and <span class="mathjax-inline">\(\theta +\mathrm {d}\theta \)</span> is just the area of the ring <span class="mathjax-inline">\(2\pi \, b \, \mathrm {d}b\)</span>. By
+integrating over the impact parameter the cross section for scattering into angles <span class="mathjax-inline">\(\theta \)</span> or greater is:
+</p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \sigma = \int _0^{b(\theta )} 2\pi \, b \, \mathrm {d}b = \pi b^2(\theta ). \end{equation*}</div>
 <p>   <figure class="figure"> 
 
@@ -410,12 +411,9 @@ href="#XDemtroder:2022afs">1</a>].                               </span></figcap
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {\mathrm {d}\sigma }{\mathrm {d}\Omega } = \frac {(Z_1 Z_2 e^2)^2}{\left (16 \pi \varepsilon _0 E_{\text {kin}}\right )^2} \frac {1}{\sin ^4(\theta /2)}, \end{equation*}</div> for its derivation, see <a 
 href="#x1-84000A.2">A.2<!--tex4ht:ref: sec:Rutherford_diff --></a>.
 <p>   So far, we have assumed that the law of force is known. Very often, however, one tries to investigate
-the form of an unknown law of force. For example, one can assume that the potential takes a
-simple form like </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} V(r) = K \frac {e^{-r/r_0}}{r^n}, \end{equation*}</div> and see if <span class="mathjax-inline">\(K\)</span>, <span class="mathjax-inline">\(n\)</span>, and <span class="mathjax-inline">\(r_0\)</span> can be chosen to obtain a fit to the measured cross section
-data.
-<p>   As an aside, Rutherford was “quite lucky” in the sense that, in this case, the classical treatment he
-applied gives the same result as a fully quantum-mechanical calculation.
+the form of an unknown law of force. As an aside, Rutherford was “quite lucky” in the sense that, in this
+case, the classical treatment he applied gives the same result as a fully quantum-mechanical
+calculation.
    
    </p> 
 
@@ -528,7 +526,7 @@ href="#XDemtroder:2022afs">1</a>].
 <p></figure>
 </p> 
 <p>   By increasing the energy of a particle incident on a nucleus, we can probe progressively smaller
-distances <span class="mathjax-inline">\(\delta \)</span>. If we probe distances below a critical value for the distance of closest approach <span class="mathjax-inline">\(\delta \)</span>, the observed
+distances. If we probe distances below a critical value for the distance of closest approach <span class="mathjax-inline">\(\delta \)</span>, the observed
 angular distribution <span class="mathjax-inline">\(N(\theta )\)</span> of scattered particles begins to deviate from the distribution calculated
 for a pure Coulomb potential. In a simplified model, <span class="mathjax-inline">\(\delta _N\)</span> is interpreted as the nuclear radius
 <span class="mathjax-inline">\(R_K\)</span>.
@@ -552,8 +550,8 @@ proportional to <span class="mathjax-inline">\(A\)</span>.
    <h4 class="subsectionHead"><span class="titlemark">1.4.2   </span> <a 
 href="#QQ2-1-16" id="x1-110001.4.2">Nuclear Charge and Matter Density</a></h4>
 <p>Early experiments were performed with <span class="mathjax-inline">\(\alpha \)</span>-particles as probes. This means that Coulomb forces as well as
-nuclear forces contribute to the scattering. For electrons, only the electromagnetic interaction is relevant,
-so one essentially measures the charge distribution.
+nuclear forces contribute to the scattering. For high energy electrons, only the electromagnetic interaction
+is relevant, so one essentially measures the charge distribution.
 </p> 
 <p>   <figure class="figure"> 
 
@@ -567,14 +565,14 @@ src="pic/Form_factors.png" alt="PIC"
 style="width:71.5%"> <a 
  id="x1-11001r5"></a>
 <figcaption class="caption" ><span class="id">Figure 1.5: </span><span  
-class="content">Relation between the radial charge distribution <span class="mathjax-inline">\(\rho (r)\)</span> and the corresponding form factor. In
-the non-relativistic limit the form factor <span class="mathjax-inline">\(F(\mathbf {q}^2)\)</span> is the Fourier transform of the charge density, which
-transforms the description from position space to momentum space (or wave-number space, since
-<span class="mathjax-inline">\(\mathbf {p}= h/\lambda = \hbar \mathbf {k}\)</span>). A constant form factor corresponds to a point-like charge; a dipole form factor to a charge
-distribution which falls off exponentially; a Gaussian form factor to a Gaussian charge distribution;
-and an oscillating form factor corresponds to a homogeneous sphere with a more or less sharp edge.
-All nuclei except for the lightest ones, display an oscillating form factor. Source [<a 
-href="#Xpovh2015particles">3</a>].            </span></figcaption><!--tex4ht:label?: x1-11001r5 -->
+class="content">Relation between the radial charge distribution <span class="mathjax-inline">\(\rho (r)\)</span> and the corresponding form factor.
+In the non-relativistic limit the form factor <span class="mathjax-inline">\(F(\mathbf {q}^2)\)</span> is the normalised Fourier transform of the charge
+density, which transforms the description from position space to momentum space (or wave-number
+space, since <span class="mathjax-inline">\(\mathbf {p}= h/\lambda = \hbar \mathbf {k}\)</span>). A constant form factor corresponds to a point-like charge; a dipole form factor to
+a charge distribution which falls off exponentially; a Gaussian form factor to a Gaussian charge
+distribution; and an oscillating form factor corresponds to a homogeneous sphere with a more or
+less sharp edge. Source [<a 
+href="#Xpovh2015particles">3</a>].                                                                </span></figcaption><!--tex4ht:label?: x1-11001r5 -->
                                                                                          
                                                                                          
 </p> 
@@ -586,9 +584,8 @@ factor</i>: </p>
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {d\sigma }{d\Omega } = \left ( \frac {d\sigma }{d\Omega } \right )_{\text {point}} |F(\mathbf {q}^2)|^2. \end{equation*}</div> Here, <span class="mathjax-inline">\(\mathbf {q}\)</span> is the momentum transfer, defined as <div class="mathjax-env mathjax-equation*">\begin{equation*} \mathbf {q} = \mathbf {p}_f - \mathbf {p}_i \end{equation*}</div> where <span class="mathjax-inline">\(\mathbf {p}_i\)</span> and <span class="mathjax-inline">\(\mathbf {p}_f\)</span> are the initial and final electron
 momenta, respectively. The form factor depends on the momentum transfer and on the charge density
 <span class="mathjax-inline">\(\rho (r)\)</span>.
-<p>   In physical terms, the form factor gives the amplitude associated with a momentum transfer <span class="mathjax-inline">\(\mathbf {q}\)</span> arising
-from a given charge distribution. Or in the other words the amplitude for the electron to interact with a
-photon leading to a momentum transfer <span class="mathjax-inline">\(\mathbf {q} \)</span>.
+<p>   In physical terms, the form factor describes how the spatial distribution of charge modifies the
+amplitude for an electron to scatter from the nucleus with momentum transfer <span class="mathjax-inline">\(\mathbf q\)</span>.
 </p> 
 <p>   The relation between the charge density distribution and the form factor is illustrated in Fig. <a 
 href="#x1-11001r5">1.5<!--tex4ht:ref: fig:Form_factors --></a> for
@@ -785,12 +782,7 @@ relativistic expression as a function of the Lorentz factor.                    
 <p>   A common issue in nuclear physics is that sometimes the non-relativistic approximation is sufficient,
 and sometimes it is not. The comparison is shown in Fig. <a 
 href="#x1-16003r1">2.1<!--tex4ht:ref: fig:T_rel_vs_classical --></a>. We see that up to <span class="mathjax-inline">\(T/mc^2 \approx 0.05\)</span> (corresponding to <span class="mathjax-inline">\(\gamma \approx 1.05\)</span> and
-<span class="mathjax-inline">\(\beta \approx 0.3\)</span>), the non-relativistic approximation is sufficient. This situation occurs quite frequently in nuclear
-physics. In particle physics, which deals with much higher energies, the full relativistic treatment needs to
-be used, this typically implies using the four-vector formulation for energy and momentum (see
-Appendix <a 
-href="#x1-91000C.1">C.1<!--tex4ht:ref: sec:rel_kinematics --></a> and reference [<a 
-href="#XGriffiths:1987tj">5</a>]).
+<span class="mathjax-inline">\(\beta \approx 0.3\)</span>), the non-relativistic approximation is sufficient.
    
    </p> 
 
@@ -1334,15 +1326,13 @@ fragments. Excited nuclei may also transition to lower energy states through the
 radiation.
 </p> 
 <p>   Let me make a distinction between something being <i>possible</i> and something being <i>probable</i>. In physics,
-something is <i>possible</i> if it does not violate any conservation laws. For example, decay processes occur only
-when the energy of the initial state exceeds that of the final state.
+something is <i>possible</i> if it does not violate any conservation laws. For a decay to be possible energy,
+momentum, electric charge, nuclear number (baryon number), and lepton number must be
+conserved.
 </p> 
 <p>   Something being <i>possible</i> does not make it <i>probable</i>. If I was playing the lottery, it would be <i>possible</i>
 to win it, but not <i>probable</i>. Similarly, decays can be <i>possible</i> while occurring with very low
 <i>probability</i>.
-</p> 
-<p>   For a decay to be possible energy, momentum, electric charge, nuclear number (baryon number), and
-lepton number must be conserved.
    
    </p> 
 
@@ -2281,7 +2271,7 @@ neutrinos)?
 </p> 
 <p>   Thermal power required: </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} P = 3\text { GW} = 3 \times 10^9\text { J/s} \end{equation*}</div> Usable energy released per fission: <div class="mathjax-env mathjax-equation*">\begin{equation*} E = 193\text { MeV} \times 1.6 \times 10^{-13}\text { J/MeV} = 3.09 \times 10^{-11}\text { J} \end{equation*}</div> Fissions per second: <div class="mathjax-env mathjax-equation*">\begin{equation*} R = \frac {3 \times 10^9\text { J/s}}{3.09 \times 10^{-11}\text { J}} = 9.71 \times 10^{19}\text { s}^{-1} \end{equation*}</div> Mass of a single
-U-235 atom: <div class="mathjax-env mathjax-equation*">\begin{equation*} m = 235\text { u} \times 1.66 \times 10^{-27}\text { kg/u} = 3.90 \times 10^{-25}\text { kg} \end{equation*}</div> Annual mass consumption (<span class="mathjax-inline">\(1\text { year} \approx 3.16 \times 10^7\text { s}\)</span>): <div class="mathjax-env mathjax-equation*">\begin{equation*} M = 3.90 \times 10^{-25}\text { kg} \times 9.71 \times 10^{19}\text { s}^{-1} \times 3.16 \times 10^7\text { s} \approx 1198\text { kg/year} \end{equation*}</div> Radioactive waste challenge.
+U-235 atom: <div class="mathjax-env mathjax-equation*">\begin{equation*} m = 235\text { u} \times 1.66 \times 10^{-27}\text { kg/u} = 3.90 \times 10^{-25}\text { kg} \end{equation*}</div> Annual mass consumption (<span class="mathjax-inline">\(1\text { year} \approx 3.16 \times 10^7\text { s}\)</span>): <div class="mathjax-env mathjax-equation*">\begin{equation*} M = 3.90 \times 10^{-25}\text { kg} \times 9.71 \times 10^{19}\text { s}^{-1} \times 3.16 \times 10^7\text { s} \approx 1198\text { kg/year}. \end{equation*}</div> Note the radioactive waste challenge.
    
    <h4 class="subsectionHead"><span class="titlemark">4.3.5   </span> <a 
 href="#QQ2-1-101" id="x1-690004.3.5">Criticality and Chain Reactions</a></h4>
