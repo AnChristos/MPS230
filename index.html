@@ -1340,6 +1340,9 @@ when the energy of the initial state exceeds that of the final state.
 <p>   Something being <i>possible</i> does not make it <i>probable</i>. If I was playing the lottery, it would be <i>possible</i>
 to win it, but not <i>probable</i>. Similarly, decays can be <i>possible</i> while occurring with very low
 <i>probability</i>.
+</p> 
+<p>   For a decay to be possible energy, momentum, electric charge, nuclear number (baryon number), and
+lepton number must be conserved.
    
    </p> 
 
@@ -1351,14 +1354,11 @@ particle and <span class="mathjax-inline">\(f\)</span> denotes the final-state p
 <p>   Rearranging this gives: </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = (m_i - \sum m_f)c^2 = \sum T_f - T_i. \end{equation*}</div> The difference between the rest energies of the initial and final particles <div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:QValue} Q = (m_i - \sum m_f)c^2, \end{equation}</div><a 
  id="x1-35001r1"></a> is
-called the <i><span class="mathjax-inline">\(Q\)</span> value</i>. Since, <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = \sum T_f - T_i, \end{equation*}</div> the <span class="mathjax-inline">\(Q\)</span> value equals the excess kinetic energy provided to the decay
-products.
-<p>   A spontaneous decay can occur only if <span class="mathjax-inline">\(Q \geq 0\)</span>. This can be more easily seen in the rest frame of the
-decaying particle (<span class="mathjax-inline">\(T_i = 0\)</span>). In this case, </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} Q = \sum T_f, \end{equation*}</div> and since kinetic energies cannot be negative (<span class="mathjax-inline">\(\sum T_f \ge 0\)</span>), <span class="mathjax-inline">\(Q\)</span> must be
-non-negative.
-<p>   Typically, <span class="mathjax-inline">\(Q\)</span> values are calculated from atomic mass tables. When the masses are expressed in atomic
-mass units (u), using <span class="mathjax-inline">\(c^2 = 931.49\, \mathrm {MeV/u}\)</span> gives <span class="mathjax-inline">\(Q\)</span> directly in MeV.
+called the <i><span class="mathjax-inline">\(Q\)</span>-value</i> (or disintegration energy). Since, <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = \sum T_f - T_i, \end{equation*}</div> the <span class="mathjax-inline">\(Q\)</span>-value equals the excess kinetic energy provided to
+the decay products.
+<p>   A spontaneous decay can occur only if <span class="mathjax-inline">\(Q \geq 0\)</span>. Typically, <span class="mathjax-inline">\(Q\)</span>-values are calculated from atomic mass
+tables. When the masses are expressed in atomic mass units (u), using <span class="mathjax-inline">\(c^2 = 931.49\, \mathrm {MeV/u}\)</span> gives <span class="mathjax-inline">\(Q\)</span> directly in
+MeV.
    
    </p> 
 
@@ -1377,15 +1377,6 @@ href="#QQ2-1-54" id="x1-370003.2.1">Kinematics</a></h4>
 <p>In the case of the <span class="mathjax-inline">\(\alpha \)</span>-decay the <span class="mathjax-inline">\(Q\)</span> value is </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = (m_P - m_D - m_\alpha )c^2, \end{equation*}</div> where <span class="mathjax-inline">\(P\)</span> denotes the decaying (parent) nucleus, and the final state
 consists of <span class="mathjax-inline">\(D\)</span> (daughter) nucleus and the <span class="mathjax-inline">\(\alpha \)</span> particle.
-<p>   The contributions from the masses of the individual protons and neutrons cancel because their total
-number is unchanged. Hence, </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} Q = E_B(4,2) + E_B(A-4,Z-2) - E_B(A,Z). \end{equation*}</div> Since the binding energy per nucleon of an <span class="mathjax-inline">\(\alpha \)</span> particle is particularly large
-(see Fig. <a 
-href="#x1-22003r2">2.2<!--tex4ht:ref: fig:Binding_energy_curve --></a>), this condition is satisfied for many nuclides. Using the measured value <span class="mathjax-inline">\(E_B(4,2) = 23.8\)</span> MeV, we can use
-the above equation to calculate the Q-values using the semi- empirical mass formula from the Liquid
-Drop Model.
-                                                                                         
-                                                                                         
 <p>   If the original nucleus <span class="mathjax-inline">\(P\)</span> is at rest, </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} Q= (m_P - m_D - m_\alpha )c^2 = T_D + T_\alpha . \end{equation*}</div> Furthermore, conservation of momentum requires that <span class="mathjax-inline">\(D\)</span> and <span class="mathjax-inline">\(\alpha \)</span> move
 with equal and opposite momenta: <div class="mathjax-env mathjax-equation*">\begin{equation*} \begin {aligned} \mathbf {p_\alpha } &amp;= - \mathbf {p_D}, \\ |\mathbf {p_\alpha }| &amp;= |\mathbf {p_D}| \quad \text {(equal magnitudes)} . \end {aligned} \end{equation*}</div>
@@ -1394,6 +1385,8 @@ particles, <span class="mathjax-inline">\(T \ll mc^2\)</span>, we may safely use
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_D}{T_\alpha } = \frac {\frac {|\mathbf {p_D}|^2}{2m_D}}{\frac {|\mathbf {p_\alpha }|2}{2m_\alpha }} = \frac {m_\alpha }{m_D}. \end{equation*}</div>
 Therefore the kinetic energies satisfy <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_\alpha }{T_D} = \frac {m_D}{m_\alpha }, \T_\alpha + T_D = Q, \end{equation*}</div> which gives <div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:Alpha_kinetic} T_D = Q \frac {m_\alpha }{m_\alpha + m_D}, \quad T_\alpha = Q \frac {m_D}{m_\alpha + m_D}. \end{equation}</div><a 
  id="x1-37001r2"></a>
+                                                                                         
+                                                                                         
 <p>   Typically, the <span class="mathjax-inline">\(\alpha \)</span> particle carries about <span class="mathjax-inline">\(98\%\)</span> of the <span class="mathjax-inline">\(Q\)</span> value, while the much heavier daughter nucleus carries
 only about <span class="mathjax-inline">\(2\%\)</span>. This recoil energy is not negligible. For a representative <span class="mathjax-inline">\(Q \approx 5~\mathrm {MeV}\)</span>, the recoiling nucleus has
 an energy of order <span class="mathjax-inline">\(100~\mathrm {keV}\)</span>, which exceeds typical atomic binding energies in solids. If the decay
@@ -1457,15 +1450,14 @@ where <span class="mathjax-inline">\(A_\alpha = 4\)</span> and <span class="math
 <p>   The Coulomb potential energy is </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} V(r) = \frac {1}{4\pi \varepsilon _0} \frac {(2e)(Z_D e)}{r}, \end{equation*}</div> where <span class="mathjax-inline">\(Z_D\)</span> is the daughter charge.
 <p>   Using the numerical values from the previous <span class="mathjax-inline">\(\alpha \)</span>-decay example: </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} r = 1.2\left (222^{1/3} + 4^{1/3}\right )~\mathrm {fm} \approx 9.17~\mathrm {fm}, \end{equation*}</div> and <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {e^2}{4\pi \varepsilon _0} = 1.44~\mathrm {MeV\,fm}, \quad Z_D = 86, \end{equation*}</div> we obtain <div class="mathjax-env mathjax-equation*">\begin{equation*} V_{\text {max}} = \frac {2 \times 86 \times 1.44~\mathrm {MeV\,fm}}{9.17~\mathrm {fm}} \approx 27~\mathrm {MeV}. \end{equation*}</div> The situation is
-illustrated in Fig. <a 
-href="#x1-39001r1">3.1<!--tex4ht:ref: fig:Alpha_potential --></a>, where <span class="mathjax-inline">\(a\)</span> can be taken as the sum of the nuclear radius and the <span class="mathjax-inline">\(\alpha \)</span> particle radius.
-Classically, the <span class="mathjax-inline">\(\alpha \)</span> particle could escape only if its kinetic energy exceeded this maximum. The kinetic
-energy should then be the potential maximum minus the recoil energy of the daughter nucleus. However, <span class="mathjax-inline">\(V(r) \approx 27~\mathrm {MeV}\)</span>
-is much larger than the observed kinetic energy of <span class="mathjax-inline">\(4.785~\mathrm {MeV}\)</span>. We can identify three regions of interest in
-Fig. <a 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} r = 1.2\left (222^{1/3} + 4^{1/3}\right )~\mathrm {fm} \approx 9.17~\mathrm {fm}, \end{equation*}</div> and <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {e^2}{4\pi \varepsilon _0} = 1.44~\mathrm {MeV\,fm}, \quad Z_D = 86, \end{equation*}</div> we obtain <div class="mathjax-env mathjax-equation*">\begin{equation*} V_{\text {max}} = \frac {2 \times 86 \times 1.44~\mathrm {MeV\,fm}}{9.17~\mathrm {fm}} \approx 27~\mathrm {MeV}. \end{equation*}</div>
+<p>   Classically, for the <span class="mathjax-inline">\(\alpha \)</span> particle to escape, the available energy <span class="mathjax-inline">\(Q\)</span> must exceed the maximum potential
+energy <span class="mathjax-inline">\(V_{\text {max}}\)</span>. However, <span class="mathjax-inline">\(V_{\text {max}} \approx 27~\mathrm {MeV}\)</span> is vastly larger than the available decay energy <span class="mathjax-inline">\(Q = 4.871~\mathrm {MeV}\)</span>.
+</p> 
+<p>   We can identify three regions of interest in Fig. <a 
 href="#x1-39001r1">3.1<!--tex4ht:ref: fig:Alpha_potential --></a>:
-     <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+     </p> 
+<dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
    - </dt><dd 
 class="enumerate-enumitem"><span class="mathjax-inline">\(r &lt; a\)</span>: Inside the nucleus, the <span class="mathjax-inline">\(\alpha \)</span> particle moves in a potential well of depth <span class="mathjax-inline">\(-V_0\)</span> (with <span class="mathjax-inline">\(V_0\)</span> positive).
      Classically, it can move freely in this region with kinetic energy <span class="mathjax-inline">\(Q + V_0\)</span>, but cannot escape.
@@ -1504,9 +1496,9 @@ probability per unit time) <span class="mathjax-inline">\(\lambda \)</span> depe
 the potential barrier and the probability of penetrating the barrier (transmission probability) <span class="mathjax-inline">\(T\)</span>:
 </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \lambda = f \cdot T. \end{equation*}</div>
-<p>   The <span class="mathjax-inline">\(\alpha \)</span> particles move with a speed of the order <span class="mathjax-inline">\(10^9~\mathrm {cm/s}\)</span> (if you wonder the 0.05 <span class="mathjax-inline">\(c\)</span> we calculated in the example
-is <span class="mathjax-inline">\( \approx 1.5 \times 10^9\)</span> cm/s), repeatedly encountering the barrier. For a nucleus like Uranium, with a radius of
-approximately <span class="mathjax-inline">\(10^{-12}~\mathrm {cm}\)</span>, the particle encounters the barrier around <span class="mathjax-inline">\(f=10^{21}\)</span> times per second.
+<p>   The <span class="mathjax-inline">\(\alpha \)</span> particles move with a speed of the order <span class="mathjax-inline">\(10^9~\mathrm {cm/s}\)</span> repeatedly encountering the barrier. For a nucleus like
+Uranium, with a radius of approximately <span class="mathjax-inline">\(10^{-12}~\mathrm {cm}\)</span>, the particle encounters the barrier around <span class="mathjax-inline">\(f=10^{21}\)</span> times per
+second.
 </p> 
 <p>   <figure class="figure"> 
 
@@ -1520,21 +1512,22 @@ src="pic/Gamow_model.png" alt="PIC"
 style="width:60.5%"> <a 
  id="x1-39003r3"></a>
 <figcaption class="caption" ><span class="id">Figure 3.3: </span><span  
-class="content">Experimental verification of the Gamow model for the <span class="mathjax-inline">\(\alpha \)</span>-decay. Source [<a 
-href="#XDemtroder:2022afs">1</a>]            </span></figcaption><!--tex4ht:label?: x1-39003r3 -->
+class="content">Experimental verification of the Gamow model for the <span class="mathjax-inline">\(\alpha \)</span>-decay. <span class="mathjax-inline">\(E_\alpha \)</span> is the kinetic energy of
+the <span class="mathjax-inline">\(\alpha \)</span> particle. Source [<a 
+href="#XDemtroder:2022afs">1</a>]                                                                   </span></figcaption><!--tex4ht:label?: x1-39003r3 -->
                                                                                          
                                                                                          
 </p> 
 <p>   </figure>
 </p> 
 <p>   For the transmission probability a good approximation is </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} T \propto e^{-G}, \end{equation*}</div> where <div class="mathjax-env mathjax-equation*">\begin{equation*} G \propto \frac {Z-2}{\sqrt {E_\alpha }}. \end{equation*}</div> The width of the Coulomb barrier
+<div class="mathjax-env mathjax-equation*">\begin{equation*} T \propto e^{-G}, \end{equation*}</div> where <div class="mathjax-env mathjax-equation*">\begin{equation*} G \propto \frac {Z-2}{\sqrt {Q}}. \end{equation*}</div> The width of the Coulomb barrier
 through which the <span class="mathjax-inline">\(\alpha \)</span>-particle must tunnel increases for smaller values of <span class="mathjax-inline">\(E_\alpha \)</span> and larger values of <span class="mathjax-inline">\(Z\)</span>. As a result
 the tunnelling probability decreases. An exact treatment can be found in many textbooks; for
 example [<a 
 href="#Xborn_atomic_physics">9</a>].
 <p>   If the above theory is correct then we expect that </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} \log {\frac {\lambda }{10^{21} s^{-1}}} \propto -\frac {Z-2}{\sqrt {E_\alpha }}. \end{equation*}</div> Experimental results seem to verify this
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \log {\frac {\lambda }{10^{21} s^{-1}}} \propto -\frac {Z-2}{\sqrt {Q}}. \end{equation*}</div> Experimental results seem to verify this
 relationship as seen in Fig <a 
 href="#x1-39003r3">3.3<!--tex4ht:ref: fig:Gamow_model --></a>.
    
@@ -1929,8 +1922,8 @@ its rest energy.
      is converted into additional rest energy.</p> 
 </li></ul>
 <p>   For a reaction to occur, <i>energy and momentum conservation</i> are necessary but not sufficient. In
-addition, electric charge, nuclear number (baryon number), and lepton number must also be conserved, as
-in particle decays.
+addition, electric charge, nuclear number (baryon number), and lepton number must also be
+conserved.
    
    </p> 
 
