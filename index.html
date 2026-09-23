@@ -2567,27 +2567,29 @@ src="pic/Rutherford_scatt_form.png" alt="PIC"
 style="width:77%"> <a 
  id="x1-83001r1"></a>
 <figcaption class="caption" ><span class="id">Figure A.1: </span><span  
-class="content">Particle incident in area <span class="mathjax-inline">\(d\sigma \)</span> scatters into solid angle <span class="mathjax-inline">\(d\Omega \)</span>. Source [<a 
-href="#XDemtroder:2018amp">14</a>]                    </span></figcaption><!--tex4ht:label?: x1-83001r1 -->
+class="content">Scattering in a Coulomb potential. Source [<a 
+href="#XDemtroder:2018amp">14</a>]                                   </span></figcaption><!--tex4ht:label?: x1-83001r1 -->
                                                                                          
                                                                                          
 </p> 
 <p></figure>
 </p> 
-<p>   From conservation of angular momentum, </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} L = m r^2 \frac {d\phi }{dt} = m v_0 b \label {eq:angular_momentum} \end{equation*}</div> The <span class="mathjax-inline">\(y\)</span>-component of the Coulomb force is responsible for
-the deflection of the <span class="mathjax-inline">\(\alpha \)</span>-particles: <div class="mathjax-env mathjax-equation*">\begin{equation*} F_y = F\sin \phi = m \frac {dv_y}{dt} = \frac {a \sin \phi }{r^2}, \end{equation*}</div> where <span class="mathjax-inline">\(a = \frac {qQ}{4\pi \epsilon _0}\)</span>, <span class="mathjax-inline">\(q = 2e\)</span>, <span class="mathjax-inline">\(Q = Ze\)</span>.
-<p>   Substituting </p> 
-<div class="mathjax-env mathjax-equation">\begin{equation} \frac {dv_y}{dt} = \frac {a }{m r^2} \sin \phi = \frac {a }{m v_0 b} \sin \phi \frac {d\phi }{dt} \label {eq:vy_differential} \end{equation}</div><a 
+<p>   From conservation of angular momentum: </p> 
+<div class="mathjax-env mathjax-equation">\begin{equation} L = m r^2 \frac {d\phi }{dt} = m v_0 b \implies \frac {1}{r^2} = \frac {1}{v_0 b} \frac {d\phi }{dt} \label {eq:angular_momentum} \end{equation}</div><a 
  id="x1-83002r1"></a>
+<p>   The <span class="mathjax-inline">\(y\)</span>-component of the Coulomb force is responsible for the deflection of the <span class="mathjax-inline">\( \alpha \)</span>-particles: </p> 
+<div class="mathjax-env mathjax-equation">\begin{equation} F_y = F \sin \phi = m \frac {dv_y}{dt} = \frac {a \sin \phi }{r^2}, \end{equation}</div><a 
+ id="x1-83003r2"></a> where <span class="mathjax-inline">\(a = \frac {qQ}{4\pi \epsilon _0}\)</span>, <span class="mathjax-inline">\(q = 2e\)</span>, and
+<span class="mathjax-inline">\(Q = Ze\)</span>.
+<p>   Substituting <span class="mathjax-inline">\(\frac {1}{r^2}\)</span> yields: </p> 
+<div class="mathjax-env mathjax-equation*">\begin{equation*} \begin {aligned} \frac {dv_y}{dt} &amp;= \frac {a}{m} \left (\frac {1}{r^2}\right ) \sin \phi = \frac {a}{m} \left (\frac {1}{v_0 b} \frac {d\phi }{dt}\right ) \sin \phi = \frac {a}{m v_0 b} \sin \phi \frac {d\phi }{dt} \label {eq:vy_differential} \end {aligned} \end{equation*}</div>
 <p>   The <span class="mathjax-inline">\(\alpha \)</span>-particle approaches from <span class="mathjax-inline">\(A (-\infty )\)</span> with <span class="mathjax-inline">\(v_y = 0\)</span>, and scatters out to <span class="mathjax-inline">\(A(\infty )\)</span> with <span class="mathjax-inline">\(v_y = v_0 \sin \theta \)</span>. During this process, the angle <span class="mathjax-inline">\(\phi \)</span>
-changes from <span class="mathjax-inline">\(\phi = 0\)</span> to <span class="mathjax-inline">\(\phi _{\max } = \pi - \theta \)</span>. Integrating Eq. <a 
-href="#x1-83002r1">A.1<!--tex4ht:ref: eq:vy_differential --></a> over the entire trajectory yields </p> 
+changes from <span class="mathjax-inline">\(\phi = 0\)</span> to <span class="mathjax-inline">\(\phi _{\max } = \pi - \theta \)</span>. Integrating Eq. ?? over the entire trajectory yields </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \int _{0}^{v_0 \sin \theta } dv_y = \frac {a}{m v_0 b} \int _{0}^{\pi -\theta } \sin \phi \, d\phi \end{equation*}</div> Evaluating both integrals gives
 <div class="mathjax-env mathjax-equation*">\begin{equation*} v_0 \sin \theta = \frac {a}{m v_0 b} (1+\cos \theta ) \end{equation*}</div>
 <p>   Using the trigonometric identity </p> 
 <div class="mathjax-env mathjax-equation">\begin{equation} \frac {1+\cos \theta }{\sin \theta } = \cot \!\left (\frac {\theta }{2}\right ), \end{equation}</div><a 
- id="x1-83003r2"></a> the relation between the deflection angle <span class="mathjax-inline">\(\theta \)</span> and the impact parameter <span class="mathjax-inline">\(b\)</span>
+ id="x1-83004r3"></a> the relation between the deflection angle <span class="mathjax-inline">\(\theta \)</span> and the impact parameter <span class="mathjax-inline">\(b\)</span>
 becomes <div class="mathjax-env mathjax-equation*">\begin{equation*} \cot \!\left (\frac {\theta }{2}\right ) = \frac {m v_0^2 b}{a}. \end{equation*}</div> Substituting back <span class="mathjax-inline">\(a = \frac {qQ}{4\pi \epsilon _0} \)</span> <div class="mathjax-env mathjax-equation*">\begin{equation*} \cot \!\left (\frac {\theta }{2}\right ) = \frac {4\pi \epsilon _0}{qQ}\, m v_0^2 b, \end{equation*}</div> or <div class="mathjax-env mathjax-equation*">\begin{equation*} b = \frac {qQ}{4\pi \epsilon _0 m v_0^2 } \cot \!\left (\frac {\theta }{2}\right ) \end{equation*}</div>
 <p>   For central collisions (<span class="mathjax-inline">\(b=0\)</span>) the smallest distance <span class="mathjax-inline">\(\delta _{0}\)</span> to the target nucleus, where the projectile is reflected
 back into the incident direction is </p> 
