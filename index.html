@@ -1131,14 +1131,14 @@ href="#XDemtroder:2022afs">1</a>].                   </span></figcaption><!--tex
 href="#x1-29000" id="x1-29000">Asymmetry Term:</a></span>
    Stable nuclei tend to have approximately equal numbers of protons and neutrons for low mass
 numbers (<span class="mathjax-inline">\(N \approx Z\)</span>). This effect is modelled by the asymmetry term </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} E_{\text {symmetry}} = - a_A \frac {(N-Z)^2}{A}. \end{equation*}</div>
+<div class="mathjax-env mathjax-equation*">\begin{equation*} E_{\text {symmetry}} = - a_\mathcal {A} \frac {(N-Z)^2}{A}. \end{equation*}</div>
    
 <p><span class="paragraphHead"><a 
 href="#x1-30000" id="x1-30000">Pairing Term:</a></span>
    Experimental data show that nuclei with even numbers of protons and neutrons are more stable than
 odd-odd nuclei. This effect is accounted for by the pairing term </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \delta (A,Z) = \begin {cases} +\Delta , &amp; \text {even-even nuclei}, \\ 0, &amp; \text {odd } A, \\ -\Delta , &amp; \text {odd-odd nuclei}, \end {cases} \end{equation*}</div> where <div class="mathjax-env mathjax-equation*">\begin{equation*} \Delta = a_\delta A^{-1/2}. \end{equation*}</div> The total binding energy <span class="mathjax-inline">\(E_B\)</span> of a
-nucleus is given by the semi-empirical mass formula <div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:Semi_empirical_binding_energy} E_B(A,Z) = a_V A - a_S A^{2/3} - a_C \frac {Z(Z-1)}{A^{1/3}} - a_A \frac {(N-Z)^2}{A} + \delta (A,Z). \end{equation}</div><a 
+nucleus is given by the semi-empirical mass formula <div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:Semi_empirical_binding_energy} E_B(A,Z) = a_V A - a_S A^{2/3} - a_C \frac {Z(Z-1)}{A^{1/3}} - a_\mathcal {A} \frac {(N-Z)^2}{A} + \delta (A,Z). \end{equation}</div><a 
  id="x1-30001r7"></a>
 <p>   The coefficients are obtained from fitting the experimental data. Their values can vary depending on
 how they are fitted to the data. In these lectures we will be using the coefficients shown in Table <a 
@@ -1187,7 +1187,7 @@ class="td11">    0.714       </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-4-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-5-1"  
 class="td11"> Asymmetry  </td><td  style="white-space:nowrap; text-align:center;" id="TBL-4-5-2"  
-class="td11">    <span class="mathjax-inline">\(a_A\)</span>    </td><td  style="white-space:nowrap; text-align:center;" id="TBL-4-5-3"  
+class="td11">    <span class="mathjax-inline">\(a_\mathcal {A}\)</span>    </td><td  style="white-space:nowrap; text-align:center;" id="TBL-4-5-3"  
 class="td11">     23.2       </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-4-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-6-1"  
@@ -1358,7 +1358,7 @@ particle and <span class="mathjax-inline">\(f\)</span> denotes the final-state p
 <p>   Rearranging this gives: </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} (m_i - \sum m_f)c^2 = \sum T_f - T_i. \end{equation*}</div> The difference between the rest energies of the initial and final particles <div class="mathjax-env mathjax-equation">\begin{equation} \label {eq:QValue} Q = (m_i - \sum m_f)c^2, \end{equation}</div><a 
  id="x1-36001r1"></a> is
-called the <i><span class="mathjax-inline">\(Q\)</span>-value</i> (or disintegration energy). Since, <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = \sum T_f - T_i, \end{equation*}</div> the <span class="mathjax-inline">\(Q\)</span>-value equals the excess kinetic energy provided to
+called the <i><span class="mathjax-inline">\(Q\)</span>-value</i> (or disintegration energy). Since, <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = \sum T_f - T_i, \end{equation*}</div> the <span class="mathjax-inline">\(Q\)</span>-value equals the <i>excess kinetic energy</i> provided to
 the decay products.
 <p>   A spontaneous decay can occur only if <span class="mathjax-inline">\(Q \geq 0\)</span>. Typically, <span class="mathjax-inline">\(Q\)</span>-values are calculated from atomic mass
 tables. When the masses are expressed in atomic mass units (u), using <span class="mathjax-inline">\(c^2 = 931.49\, \mathrm {MeV/u}\)</span> gives <span class="mathjax-inline">\(Q\)</span> directly in
@@ -1382,8 +1382,8 @@ href="#QQ2-1-56" id="x1-380003.2.1">Kinematics</a></h4>
 <div class="mathjax-env mathjax-equation*">\begin{equation*} Q = (m_P - m_D - m_\alpha )c^2, \end{equation*}</div> where <span class="mathjax-inline">\(P\)</span> denotes the decaying (parent) nucleus, and the final state
 consists of <span class="mathjax-inline">\(D\)</span> (daughter) nucleus and the <span class="mathjax-inline">\(\alpha \)</span> particle.
 <p>   If the original nucleus <span class="mathjax-inline">\(P\)</span> is at rest, </p> 
-<div class="mathjax-env mathjax-equation*">\begin{equation*} Q= (m_P - m_D - m_\alpha )c^2 = T_D + T_\alpha . \end{equation*}</div> Furthermore, conservation of momentum requires that <span class="mathjax-inline">\(D\)</span> and <span class="mathjax-inline">\(\alpha \)</span> move
-with equal and opposite momenta: <div class="mathjax-env mathjax-equation*">\begin{equation*} \begin {aligned} \mathbf {p_\alpha } &amp;= - \mathbf {p_D}, \\ |\mathbf {p_\alpha }| &amp;= |\mathbf {p_D}| \quad \text {(equal magnitudes)} . \end {aligned} \end{equation*}</div>
+<div class="mathjax-env mathjax-equation*">\begin{equation*} Q= (m_P - m_D - m_\alpha )c^2 = T_D + T_\alpha . \end{equation*}</div> Furthermore, when <span class="mathjax-inline">\(P\)</span> is at rest, conservation of momentum requires
+that <span class="mathjax-inline">\(D\)</span> and <span class="mathjax-inline">\(\alpha \)</span> move with equal and opposite momenta: <div class="mathjax-env mathjax-equation*">\begin{equation*} \begin {aligned} \mathbf {p_\alpha } &amp;= - \mathbf {p_D}, \\ |\mathbf {p_\alpha }| &amp;= |\mathbf {p_D}| \quad \text {(equal magnitudes)} . \end {aligned} \end{equation*}</div>
 <p>   <span class="mathjax-inline">\(\alpha \)</span> decays typically release energies of order <span class="mathjax-inline">\(5~\mathrm {MeV}\)</span>. Since this is much smaller than the rest energies of the
 particles, <span class="mathjax-inline">\(T \ll mc^2\)</span>, we may safely use the non- relativistic approximation. Writing <span class="mathjax-inline">\(T = p^2/2m\)</span>, the momentum relation gives </p> 
 <div class="mathjax-env mathjax-equation*">\begin{equation*} \frac {T_D}{T_\alpha } = \frac {\frac {|\mathbf {p_D}|^2}{2m_D}}{\frac {|\mathbf {p_\alpha }|2}{2m_\alpha }} = \frac {m_\alpha }{m_D}. \end{equation*}</div>
